@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Cheese
   sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  storageType: 1
+  storageType: 2
+  choppedVersion: {fileID: 0}
+  boiledVersion: {fileID: 0}
+  friedVersion: {fileID: 0}

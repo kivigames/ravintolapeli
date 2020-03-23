@@ -10,9 +10,18 @@ public class Ingredient : ScriptableObject
     private Sprite sprite = null;
 
     [SerializeField]
-    private StorageType storageType = StorageType.Dry;
+    private StorageType storageType = StorageType.None;
 
     private bool selected = false;
+
+    [SerializeField]
+    private Ingredient choppedVersion = null;
+
+    [SerializeField]
+    private Ingredient boiledVersion = null;
+
+    [SerializeField]
+    private Ingredient friedVersion = null;
 
     public string IngredientName => ingredientName;
 
@@ -25,10 +34,17 @@ public class Ingredient : ScriptableObject
         get => selected;
         set => selected = value;
     }
+
+    public Ingredient ChoppedVersion => choppedVersion;
+
+    public Ingredient BoiledVersion => boiledVersion;
+
+    public Ingredient FriedVersion => friedVersion;
 }
 
 public enum StorageType
 {
+    None,
     Dry,
     Fridge
 }
