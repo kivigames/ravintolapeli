@@ -31,7 +31,7 @@ public class IngredientItem : MonoBehaviour
         ingredient = ing;
 
         if (text)
-            text.text = ing.name;
+            text.text = ing.IngredientName;
         if (image)
             image.sprite = ing.Sprite;
     }

@@ -33,7 +33,7 @@ public class IngredientManager : MonoBehaviour
 
         foreach (var ingredient in allIngredients)
         {
-            Debug.Log("Loaded ingredient " + ingredient.name);
+            Debug.Log("Loaded ingredient " + ingredient.IngredientName);
 
             if (ingredient.StorageType == StorageType.Dry)
                 dryIngredients.Add(ingredient);
@@ -44,7 +44,7 @@ public class IngredientManager : MonoBehaviour
 
     public void SelectIngredient(Ingredient ing)
     {
-        Debug.Log("Selecting ingredient " + ing.name);
+        Debug.Log("Selecting ingredient " + ing.IngredientName);
         if (ing.Selected) return;
 
         SelectedIngredients.Add(ing);
