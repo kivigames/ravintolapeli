@@ -44,17 +44,29 @@ public class IngredientManager : MonoBehaviour
 
     public void SelectIngredient(Ingredient ing)
     {
+        Debug.Log("Selecting ingredient " + ing.name);
         if (ing.Selected) return;
 
         SelectedIngredients.Add(ing);
         ing.Selected = true;
     }
 
+    public void SelectIngredient(IngredientItem ingItem)
+    {
+        SelectIngredient(ingItem.Ingredient);
+    }
+
     public void DeselectIngredient(Ingredient ing)
     {
+        Debug.Log("Deselecting ingredient " + ing.name);
         if (!ing.Selected) return;
 
         SelectedIngredients.Remove(ing);
         ing.Selected = false;
+    }
+
+    public void DeselectIngredient(IngredientItem ingItem)
+    {
+        DeselectIngredient(ingItem.Ingredient);
     }
 }

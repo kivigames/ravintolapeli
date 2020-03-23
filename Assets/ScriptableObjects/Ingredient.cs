@@ -12,7 +12,7 @@ public class Ingredient : ScriptableObject
     [SerializeField]
     private StorageType storageType = StorageType.Dry;
 
-    private bool selected;
+    private bool selected = false;
 
     public string IngredientName => ingredientName;
 
