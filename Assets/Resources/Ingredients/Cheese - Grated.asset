@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Cheese - Grated
   m_EditorClassIdentifier: 
-  ingredientName: Grated Cheese
-  sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  ingredientName: Juustoraaste
+  sprite: {fileID: 21300000, guid: 9438f84954a80c443907d91362e4b12f, type: 3}
   storageType: 2
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 0}
