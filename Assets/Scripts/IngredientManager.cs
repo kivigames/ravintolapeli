@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum IngredientListType
 {
@@ -19,6 +20,22 @@ public class IngredientManager : MonoBehaviour
     private readonly ObservableCollection<Ingredient> selectedIngredients = new ObservableCollection<Ingredient>();
     private List<Ingredient> allIngredients;
 
+    private Ingredient activeIngredient;
+
+    public ActiveIngredientChangeEvent onActiveIngredientChanged;
+
+    public Ingredient ActiveIngredient
+    {
+        get => activeIngredient;
+        set
+        {
+            activeIngredient = value;
+            Debug.Log("IngredientManager: Setting active ingredient to " +
+                      (activeIngredient ? activeIngredient.IngredientName : null));
+            onActiveIngredientChanged.Invoke(activeIngredient);
+        }
+    }
+
     public List<Ingredient> AllIngredients => allIngredients;
 
     public List<Ingredient> DryIngredients => dryIngredients;
@@ -29,6 +46,10 @@ public class IngredientManager : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("IngredientManager: Awake");
+        if (onActiveIngredientChanged == null)
+            onActiveIngredientChanged = new ActiveIngredientChangeEvent();
+
         allIngredients = new List<Ingredient>(Resources.LoadAll<Ingredient>("Ingredients"));
 
         foreach (var ingredient in allIngredients)
@@ -42,13 +63,35 @@ public class IngredientManager : MonoBehaviour
         }
     }
 
+    public void SetActiveIngredient(IngredientItem ingredientItem)
+    {
+        ActiveIngredient = ingredientItem.Ingredient;
+    }
+
+    public bool IsIngredientSelected(Ingredient ing)
+    {
+        return SelectedIngredients.Contains(ing);
+    }
+
+    public void ReplaceIngredient(Ingredient ing, Ingredient newIngredient)
+    {
+        if (!SelectedIngredients.Contains(ing)) return;
+        if (SelectedIngredients.Contains(newIngredient)) return;
+
+        var index = SelectedIngredients.IndexOf(ing);
+        SelectedIngredients[index] = newIngredient;
+
+        if (ActiveIngredient == ing)
+            ActiveIngredient = null;
+    }
+
     public void SelectIngredient(Ingredient ing)
     {
+        if (SelectedIngredients.Contains(ing)) return;
+
         Debug.Log("Selecting ingredient " + ing.IngredientName);
-        if (ing.Selected) return;
 
         SelectedIngredients.Add(ing);
-        ing.Selected = true;
     }
 
     public void SelectIngredient(IngredientItem ingItem)
@@ -58,15 +101,22 @@ public class IngredientManager : MonoBehaviour
 
     public void DeselectIngredient(Ingredient ing)
     {
+        if (!SelectedIngredients.Contains(ing)) return;
+
         Debug.Log("Deselecting ingredient " + ing.name);
-        if (!ing.Selected) return;
 
         SelectedIngredients.Remove(ing);
-        ing.Selected = false;
+
+        if (ActiveIngredient == ing)
+            ActiveIngredient = null;
     }
 
     public void DeselectIngredient(IngredientItem ingItem)
     {
         DeselectIngredient(ingItem.Ingredient);
+    }
+
+    public class ActiveIngredientChangeEvent : UnityEvent<Ingredient>
+    {
     }
 }

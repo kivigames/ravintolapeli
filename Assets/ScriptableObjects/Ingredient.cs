@@ -12,8 +12,6 @@ public class Ingredient : ScriptableObject
     [SerializeField]
     private StorageType storageType = StorageType.None;
 
-    private bool selected = false;
-
     [SerializeField]
     private Ingredient choppedVersion = null;
 
@@ -28,12 +26,6 @@ public class Ingredient : ScriptableObject
     public Sprite Sprite => sprite;
 
     public StorageType StorageType => storageType;
-
-    public bool Selected
-    {
-        get => selected;
-        set => selected = value;
-    }
 
     public Ingredient ChoppedVersion => choppedVersion;
 

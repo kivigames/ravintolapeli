@@ -30,10 +30,15 @@ public class ScreenManager : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("ScreenManager: Awake");
         foodStorageScreen.gameObject.SetActive(false);
         foodCounterScreen.gameObject.SetActive(false);
         foodPrepScreen.gameObject.SetActive(false);
+    }
 
+    private void Start()
+    {
+        Debug.Log("ScreenManager: Start");
         ChangeScreen(initialScreen);
     }
 
