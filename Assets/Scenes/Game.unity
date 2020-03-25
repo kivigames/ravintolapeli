@@ -524,11 +524,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 215507769352285666, guid: 85dfbbd51f63a614abfdfd63e6838784,
-        type: 3}
-      propertyPath: m_text
-      value: Siirry varastoon
-      objectReference: {fileID: 0}
     - target: {fileID: 215507769427998961, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -698,11 +693,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 215507770189656244, guid: 85dfbbd51f63a614abfdfd63e6838784,
-        type: 3}
-      propertyPath: m_text
-      value: "Siirry keitti\xF6\xF6n"
       objectReference: {fileID: 0}
     - target: {fileID: 245107549574123343, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
