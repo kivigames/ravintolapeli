@@ -559,7 +559,7 @@ PrefabInstance:
     - target: {fileID: 215507770059066608, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 215507770059066609, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -711,10 +711,35 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 313.9
       objectReference: {fileID: 0}
+    - target: {fileID: 684561026425452009, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684561026425452009, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684561026425452009, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684561026425452009, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 684561026425452009, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1360541153700008818, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1360541153700008818, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -724,7 +749,7 @@ PrefabInstance:
     - target: {fileID: 1360541153769094296, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 51.925003
+      value: 51.92505
       objectReference: {fileID: 0}
     - target: {fileID: 1360541153769094296, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -739,12 +764,12 @@ PrefabInstance:
     - target: {fileID: 1360541154144187089, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1360541154144187089, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1360541154144187089, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -754,17 +779,22 @@ PrefabInstance:
     - target: {fileID: 1360541155246176372, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1360541155246176372, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1360541155246176372, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360541155686328309, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2173769382860595616, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -775,24 +805,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4754732588531401861, guid: 85dfbbd51f63a614abfdfd63e6838784,
-        type: 3}
-      propertyPath: m_text
-      value: 'Resepti: Bolognese
-
-
-        - Keitetty spagetti
-
-        - Pilkottu
-        sipuli
-
-        - Paistettu jauheliha
-
-        - Tomaattikastike
-
-        -
-        Juustoraaste'
       objectReference: {fileID: 0}
     - target: {fileID: 4754732588531401861, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -813,12 +825,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.spaceCount
       value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5550599997669699052, guid: 85dfbbd51f63a614abfdfd63e6838784,
-        type: 3}
-      propertyPath: m_text
-      value: "T\xE4ss\xE4 ruudussa voit kasata valituista ainesosista annoksen.\n\nValitse
-        ainesosa oikealta listasta ja klikkaa lautasta."
       objectReference: {fileID: 0}
     - target: {fileID: 5550599997669699052, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
@@ -1295,12 +1301,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7272741647995778136, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
-      propertyPath: m_text
-      value: "T\xE4\xE4ll\xE4 voit lis\xE4t\xE4 aineksia valittuihin.\n\nKlikkaa
-        kaapin sis\xE4lt\xE4 ainesosaa lis\xE4t\xE4ksesi se oikealle listaan."
-      objectReference: {fileID: 0}
-    - target: {fileID: 7272741647995778136, guid: a64992b4f5d3b16428739f48369799d9,
-        type: 3}
       propertyPath: m_fontSize
       value: 33.5
       objectReference: {fileID: 0}
@@ -1328,6 +1328,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.spaceCount
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272741647995778136, guid: a64992b4f5d3b16428739f48369799d9,
+        type: 3}
+      propertyPath: m_text
+      value: "T\xE4\xE4ll\xE4 voit lis\xE4t\xE4 aineksia valittuihin.\n\nKlikkaa
+        kaapin sis\xE4lt\xE4 ainesosaa lis\xE4t\xE4ksesi se oikealle listaan.\n\nAineksen
+        voi poistaa klikkaamalla sit\xE4 valittujen listasta."
       objectReference: {fileID: 0}
     - target: {fileID: 7870731049216734304, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
@@ -1766,7 +1773,7 @@ PrefabInstance:
     - target: {fileID: 7806777729887836559, guid: 86c7870ab981e5e45b1f6ec6f9242116,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 51.925
+      value: 51.92505
       objectReference: {fileID: 0}
     - target: {fileID: 7806777729887836559, guid: 86c7870ab981e5e45b1f6ec6f9242116,
         type: 3}
@@ -1877,13 +1884,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806777730317581693, guid: 86c7870ab981e5e45b1f6ec6f9242116,
-        type: 3}
-      propertyPath: m_text
-      value: "Valmistaaksesi ainesosan, valitse se listasta oikealla ja klikkaa sitten
-        jotain mahdollisista valmistustavoista.\n\nKaikki tavat eiv\xE4t v\xE4ltt\xE4m\xE4tt\xE4
-        ole saatavilla joka ainesosalle."
       objectReference: {fileID: 0}
     - target: {fileID: 7806777730442071199, guid: 86c7870ab981e5e45b1f6ec6f9242116,
         type: 3}

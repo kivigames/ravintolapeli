@@ -1058,8 +1058,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: To prepare an ingredient, first select one from the list on the right,
-    then click an operation.
+  m_text: "Valmistaaksesi ainesosan, valitse se listasta oikealla ja klikkaa sitten
+    jotain mahdollisista valmistustavoista.\n\nKaikki tavat eiv\xE4t v\xE4ltt\xE4m\xE4tt\xE4
+    ole saatavilla joka ainesosalle."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}

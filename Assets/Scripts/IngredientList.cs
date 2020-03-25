@@ -13,9 +13,21 @@ public class IngredientList : MonoBehaviour
         Action
     }
 
+    public enum IngredientListType
+    {
+        All,
+        Selected,
+        Manual,
+
+        Dry,
+        Fridge
+    }
+
     private IngredientManager ingredientManager;
 
     public IngredientListType listType;
+
+    public bool reverseOrder = false;
 
     public VerticalLayoutGroup listGroup;
 
@@ -39,6 +51,8 @@ public class IngredientList : MonoBehaviour
 
     private void OnEnable()
     {
+        if (listType == IngredientListType.Manual) return;
+
         foreach (var ing in GetIngredientList()) AddIngredient(ing);
 
         if (listType == IngredientListType.Selected)
@@ -54,6 +68,8 @@ public class IngredientList : MonoBehaviour
 
     private void OnDisable()
     {
+        if (listType == IngredientListType.Manual) return;
+
         if (listType == IngredientListType.Selected)
         {
             var obs = ingredientManager.SelectedIngredients;
@@ -83,18 +99,46 @@ public class IngredientList : MonoBehaviour
         }
     }
 
-    private IngredientItem AddIngredient(Ingredient ing)
+    public void CopyIngredient(IngredientItem ingredientItem)
+    {
+        AddIngredient(ingredientItem.Ingredient);
+    }
+
+    public IngredientItem AddIngredient(Ingredient ing)
     {
         var ingObject = Instantiate(ingredientItemPrefab, listGroup.transform);
         ingObject.Ingredient = ing;
+
+        if (reverseOrder)
+            ingObject.transform.SetAsFirstSibling();
+
         var btn = ingObject.GetComponent<Button>();
 
         if (clickMode == ListClickMode.Action)
             btn.onClick.AddListener(() => clickAction?.Invoke(ingObject));
         else
-            btn.onClick.AddListener(() => ingredientManager.ActiveIngredient = ingObject.Ingredient);
+            btn.onClick.AddListener(() =>
+            {
+                if (ingredientManager.ActiveIngredient != ingObject.Ingredient)
+                    ingredientManager.ActiveIngredient = ingObject.Ingredient;
+                else
+                    ingredientManager.ActiveIngredient = null;
+            });
 
         return ingObject;
+    }
+
+    public void RemoveIngredient(IngredientItem ingItem)
+    {
+        if (ingItem)
+            Destroy(ingItem.gameObject);
+    }
+
+    public void RemoveIngredient(Ingredient ing)
+    {
+        var item = GetItemByIngredient(ing);
+        if (item)
+            Destroy(item.gameObject);
     }
 
     private void OnIngredientSelectionChanged(object sender, NotifyCollectionChangedEventArgs e)
@@ -106,12 +150,7 @@ public class IngredientList : MonoBehaviour
         }
         else if (e.Action == NotifyCollectionChangedAction.Remove)
         {
-            foreach (Ingredient ing in e.OldItems)
-            {
-                var item = GetItemByIngredient(ing);
-                if (item)
-                    Destroy(item.gameObject);
-            }
+            foreach (Ingredient ing in e.OldItems) RemoveIngredient(ing);
         }
         else if (e.Action == NotifyCollectionChangedAction.Replace)
         {
@@ -150,6 +189,8 @@ public class IngredientList : MonoBehaviour
                 return ingredientManager.DryIngredients;
             case IngredientListType.Fridge:
                 return ingredientManager.FridgeIngredients;
+            case IngredientListType.Manual:
+                return null;
             default:
                 throw new ArgumentOutOfRangeException();
         }

@@ -3,15 +3,6 @@ using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.Events;
 
-public enum IngredientListType
-{
-    All,
-    Selected,
-
-    Dry,
-    Fridge
-}
-
 public class IngredientManager : MonoBehaviour
 {
     private readonly List<Ingredient> dryIngredients = new List<Ingredient>();
