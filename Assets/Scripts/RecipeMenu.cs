@@ -9,16 +9,16 @@ public class RecipeMenu : MonoBehaviour
     private int currentRecipe;
 
     [SerializeField]
-    private TextMeshProUGUI titleText;
+    private TextMeshProUGUI titleText = null;
 
     [SerializeField]
-    private TextMeshProUGUI pageText;
+    private TextMeshProUGUI pageText = null;
 
     [SerializeField]
-    private TextMeshProUGUI ingredientText;
+    private TextMeshProUGUI ingredientText = null;
 
     [SerializeField]
-    private TextMeshProUGUI recipeText;
+    private TextMeshProUGUI recipeText = null;
 
     private void Start()
     {

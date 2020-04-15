@@ -1,22 +1,16 @@
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class CounterScreen : GameScreen
 {
-    public RectTransform gradeModal;
+    [SerializeField]
+    private IngredientList plateIngredientList = null;
 
-    public TextMeshProUGUI gradeText;
+    private RecipeManager recipeManager;
 
-    public IngredientList plateIngredientList;
-
-    public Recipe gradedRecipe;
-
-    private string originalText;
-
-    private void Awake()
+    private void Start()
     {
-        originalText = gradeText.text;
+        recipeManager = FindObjectOfType<RecipeManager>();
     }
 
     public void ShowGrade()
@@ -25,12 +19,6 @@ public class CounterScreen : GameScreen
         foreach (RectTransform item in plateIngredientList.listGroup.transform)
             platedIngredients.Add(item.GetComponent<IngredientItem>().Ingredient);
 
-        var correct = 0;
-        foreach (var ing in gradedRecipe.Ingredients)
-            if (platedIngredients.Contains(ing))
-                correct += 1;
-
-        gradeText.text = string.Format(originalText, correct, gradedRecipe.Ingredients.Count);
-        gradeModal.gameObject.SetActive(true);
+        recipeManager.ShowGrade(platedIngredients);
     }
 }

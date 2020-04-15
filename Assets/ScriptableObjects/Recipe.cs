@@ -16,13 +16,13 @@ public class Recipe : ScriptableObject
 
     [SerializeField]
     [TextArea]
-    private string ingredientText;
+    private string ingredientText = null;
 
     public string IngredientText => ingredientText;
 
     [SerializeField]
     [TextArea]
-    private string recipeText;
+    private string recipeText = null;
 
     public string RecipeText => recipeText;
 }

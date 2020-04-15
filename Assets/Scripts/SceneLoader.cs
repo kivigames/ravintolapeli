@@ -1,12 +1,10 @@
-﻿﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
- public class SceneLoader : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    
-  private void LoadLevel(int Level)
-  { 
-      SceneManager.LoadScene(Level);
-  }
+    private void LoadLevel(int Level)
+    {
+        SceneManager.LoadScene(Level);
+    }
 }
