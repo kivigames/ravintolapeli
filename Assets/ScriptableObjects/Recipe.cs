@@ -13,4 +13,16 @@ public class Recipe : ScriptableObject
     private List<Ingredient> ingredients = new List<Ingredient>();
 
     public List<Ingredient> Ingredients => ingredients;
+
+    [SerializeField]
+    [TextArea]
+    private string ingredientText;
+
+    public string IngredientText => ingredientText;
+
+    [SerializeField]
+    [TextArea]
+    private string recipeText;
+
+    public string RecipeText => recipeText;
 }

@@ -336,32 +336,32 @@ PrefabInstance:
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_text
-      value: Spaghetti bolognese
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
@@ -386,7 +386,7 @@ PrefabInstance:
     - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560983, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
@@ -501,6 +501,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 130534584}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &130534586 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
+    type: 3}
+  m_PrefabInstance: {fileID: 130534584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &131797394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,6 +2562,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88fc70162900a614f9f8e4247b711c76, type: 3}
+--- !u!114 &767913648 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
+    type: 3}
+  m_PrefabInstance: {fileID: 767913647}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &853091311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4207,7 +4231,7 @@ PrefabInstance:
     - target: {fileID: 649966803379920030, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.9999695
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 649966803379920030, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -4416,6 +4440,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1130312784212775779, guid: 18c8cef4db6039f429cf87d11ca47323,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1177814812715890375, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -4454,6 +4483,11 @@ PrefabInstance:
     - target: {fileID: 1563884247358258945, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563884247358258945, guid: 18c8cef4db6039f429cf87d11ca47323,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1999608860433269422, guid: 18c8cef4db6039f429cf87d11ca47323,
@@ -4639,7 +4673,7 @@ PrefabInstance:
     - target: {fileID: 6556845384210787243, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000017166138
+      value: -0.00001933183
       objectReference: {fileID: 0}
     - target: {fileID: 6556845384210787243, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -4714,9 +4748,7 @@ PrefabInstance:
     - target: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_text
-      value: "Ainekset: \n400 g jauhelihaa\n1 dl sipulia\n3 kpl valkosipulinkyntt\xE4\n3
-        rkl \xF6ljy\xE4\n1 tl suolaa\n400 g tomaattimurskaa\n2 rkl tomaattipyreet\xE4\n1
-        kpl porkkana\n1 tl chilijauhetta "
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -4760,6 +4792,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c8cef4db6039f429cf87d11ca47323, type: 3}
+--- !u!114 &1196135087 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
+    type: 3}
+  m_PrefabInstance: {fileID: 1196135086}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197135105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5611,6 +5655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1375606159}
+  - component: {fileID: 1375606160}
   m_Layer: 5
   m_Name: RecipeMenu
   m_TagString: Untagged
@@ -5638,6 +5683,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1375606160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375606158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70260284e477bd343a5afbe9e5a6dbc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: {fileID: 130534586}
+  pageText: {fileID: 767913648}
+  ingredientText: {fileID: 1196135087}
+  recipeText: {fileID: 2027380548}
 --- !u!1001 &1456707129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7296,7 +7357,7 @@ PrefabInstance:
     - target: {fileID: 649966803379920030, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.9999695
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 649966803379920030, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -7578,6 +7639,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1130312784212775779, guid: 18c8cef4db6039f429cf87d11ca47323,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1177814812715890375, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -7616,6 +7682,11 @@ PrefabInstance:
     - target: {fileID: 1563884247358258945, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563884247358258945, guid: 18c8cef4db6039f429cf87d11ca47323,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2106480545278845744, guid: 18c8cef4db6039f429cf87d11ca47323,
@@ -7761,7 +7832,7 @@ PrefabInstance:
     - target: {fileID: 6556845384210787243, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000017166138
+      value: -0.000028418228
       objectReference: {fileID: 0}
     - target: {fileID: 6556845384210787243, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -7856,12 +7927,7 @@ PrefabInstance:
     - target: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
       propertyPath: m_text
-      value: "Valmistus:\r\nKuumenna pannu ja ruskista jauheliha ja hienonnettu sipuli.
-        Lis\xE4\xE4 valkosipulimurska. Mausta seos suolalla ja pippurilla.\r\n\r\nLis\xE4\xE4
-        tomaattimurska sek\xE4 raastettu porkkana. Halutessasi kastikkeeseen hieman
-        potkua voit lis\xE4t\xE4 ripauksen chilijauhetta tai hienoksi silputtua tuoretta
-        chili\xE4. \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4 v\xE4hint\xE4\xE4n
-        15-20 minuuttia. Tarjoile kastike keitetyn spagetin kera.\r"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
         type: 3}
@@ -7905,6 +7971,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c8cef4db6039f429cf87d11ca47323, type: 3}
+--- !u!114 &2027380548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8880246645161794500, guid: 18c8cef4db6039f429cf87d11ca47323,
+    type: 3}
+  m_PrefabInstance: {fileID: 2027380547}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2058085136
 PrefabInstance:
   m_ObjectHideFlags: 0
