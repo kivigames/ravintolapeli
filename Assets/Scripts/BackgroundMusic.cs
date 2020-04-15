@@ -3,11 +3,14 @@
 [RequireComponent(typeof(AudioSource))]
 public class BackgroundMusic : MonoBehaviour
 {
-    private AudioSource audioSource;
-
     private void Start()
     {
+        if (FindObjectsOfType<BackgroundMusic>().Length > 1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         DontDestroyOnLoad(this);
-        audioSource = GetComponent<AudioSource>();
     }
 }

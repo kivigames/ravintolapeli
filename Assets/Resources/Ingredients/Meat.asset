@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Meat
   m_EditorClassIdentifier: 
   ingredientName: Liha (Raaka)
-  sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 6f75469fa18806a4bb0098f82c4aeca6, type: 3}
   storageType: 2
   choppedVersion: {fileID: 11400000, guid: d5142626d812f1a479194d384ce62b61, type: 2}
   boiledVersion: {fileID: 0}

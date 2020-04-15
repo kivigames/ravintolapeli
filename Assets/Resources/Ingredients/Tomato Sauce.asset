@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tomato Sauce
   m_EditorClassIdentifier: 
   ingredientName: Tomaattikastike
-  sprite: {fileID: 21300000, guid: 2bbb56ad45b953b43b83e061ea2b48e3, type: 3}
+  sprite: {fileID: 21300000, guid: 2edf100c28641a74cb7adab45cfc7a53, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 0}
