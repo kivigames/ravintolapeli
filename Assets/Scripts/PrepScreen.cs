@@ -32,9 +32,9 @@ public class PrepScreen : GameScreen
     {
         if (ingredient == null)
         {
-            EnablePrep(boilButton, true);
-            EnablePrep(chopButton, true);
-            EnablePrep(fryButton, true);
+            EnablePrep(boilButton, true, false);
+            EnablePrep(chopButton, true, false);
+            EnablePrep(fryButton, true, false);
             return;
         }
 
@@ -45,7 +45,13 @@ public class PrepScreen : GameScreen
 
     private static void EnablePrep(Button prepBtn, bool enabled)
     {
-        prepBtn.gameObject.SetActive(enabled);
+        EnablePrep(prepBtn, enabled, enabled);
+    }
+
+    private static void EnablePrep(Button prepBtn, bool visible, bool canClick)
+    {
+        prepBtn.gameObject.SetActive(visible);
+        prepBtn.interactable = canClick;
     }
 
     public bool CanBoil(Ingredient ing)
