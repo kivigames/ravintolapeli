@@ -18,10 +18,14 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: Do something
+    m_Value: 
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: Tee jotain
+    m_Value: "Valmistus (noin 45 minuuttia)\r\nRuskista jauheliha ja paista sipuli
+      rasvassa.\r\n\r\nViipaloi perunat ja pilko muut juurekset.\r\n\r\nLaita kattilaan
+      perunat, jauheliha, juurekset, pippurit, vesi ja lihaliemikuutiot. \r\n\r\nKeit\xE4
+      keittoa, kunnes se vaikuttaa kyps\xE4lt\xE4. \r\n\r\nMausta valmis keitto suolalla
+      ja persiljalla."

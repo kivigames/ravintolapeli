@@ -261,6 +261,11 @@ PrefabInstance:
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 4870874475906560982, guid: 88fc70162900a614f9f8e4247b711c76,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4870874475906560983, guid: 88fc70162900a614f9f8e4247b711c76,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -46,7 +46,7 @@ public class RecipeManager : MonoBehaviour
         if (recipeText && recipe)
         {
             recipeTitle.LocalizedAsset = recipe.RecipeName;
-            recipeText.LocalizedAsset = recipe.IngredientText;
+            recipeText.LocalizedAsset = recipe.SimpleIngredientText;
         }
         else if (recipeText)
         {

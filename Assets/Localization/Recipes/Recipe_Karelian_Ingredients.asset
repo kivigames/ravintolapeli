@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
-  m_Name: Recipe_SpagBol_Ingredients
+  m_Name: Recipe_Karelian_Ingredients
   m_EditorClassIdentifier: 
   m_LocaleItems:
   - m_Language: -1
@@ -24,13 +24,5 @@ MonoBehaviour:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: '- Keitetty spagetti
-
-      - Pilkottu sipuli
-
-      - Paistettu jauheliha
-
-      -
-      Tomaattikastike
-
-      - Juustoraaste'
+    m_Value: "- Paistettua lihaa\r\n- Pilkottua sipulia\r\n- Pilkottua porkkanaa\r\n-
+      Keitetty\xE4 perunaa\r\n- Keitetty\xE4 lanttua"

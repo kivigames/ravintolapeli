@@ -12,36 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
   m_Name: Meat and potato casserolle
   m_EditorClassIdentifier: 
-  recipeName: Porkkanainen Lihakiusaus
+  recipeName: {fileID: 11400000, guid: 816d6715875be584b89362fb20cf8f85, type: 2}
   ingredients:
   - {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
   - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
   - {fileID: 11400000, guid: 23904018a85ff6345930cb9ef59c9770, type: 2}
-  ingredientText: '- Paistettua jauhelihaa
-
-    - Pilkottu porkkana
-
-    - Keitetty
-    peuna
-
-    - Pilkottua sipuli'
-  measurementsText: '- Paistettua jauhelihaa
-
-    - Pilkottu porkkana
-
-    - Keitetty
-    peuna
-
-    - Pilkottua sipuli'
-  recipeText: "Valmistus (valmistusaika noin 60 minuuttia):\nL\xE4mmit\xE4 uuni 225
-    asteeseen ja ota esille paistovuoka sek\xE4 paistinpannu. \n\nAseta liha kuumalle
-    paistinpannulle, ja kun liha on kyps\xE4, lis\xE4\xE4 se paistovuokaan.\n\nPilko
-    vihannekset ja lis\xE4\xE4 nekin paistovuokaan\n\nKun liha ja vihannekset ovat
-    paistovuoassa, lis\xE4\xE4 joukkoon pakastetut perunasuikaleet (tai pilkotut
-    ja keitetyt perunasuikaleet).\n\nLis\xE4\xE4 seoksen joukkoon maito tai ruokakerma
-    ja sekoita seosta. \n\nSeoksen voi nostaa uuniin, kun seos on hyvin sekoitettu
-    ja uuni on l\xE4mmennyt 225 aasteeseen\n\nLis\xE4\xE4 kansi ja paista seos uunin
-    keski- tai alaosassa noin 50 minuuttia.\nOta vuoan kansi pois ja jatka paistamista
-    noin 5 minuuttia tai kunnes ruoan pinta on kullanruskean v\xE4rinen.\n\nOta vuoka
-    pois uunista ja tarkista ruoan kypsyys vuoan keskiosalta.\n\nTarjoile ruoka selllaisenaan."
+  ingredientsText: {fileID: 11400000, guid: 18946d4555ef396439455d06fc8013f6, type: 2}
+  simpleIngredientsText: {fileID: 11400000, guid: ebf353c7e1e159440b1829f017cc3e56,
+    type: 2}
+  recipeText: {fileID: 11400000, guid: ef86e7a1fd6ef9f459f3ec4c40197244, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Carrot (Chopped)
   m_EditorClassIdentifier: 
-  ingredientName: Pilkottu porkkana
+  ingredientName: {fileID: 11400000, guid: d6327c4970e3b7a4ebd177653da4dca8, type: 2}
   sprite: {fileID: 0}
   storageType: 0
   choppedVersion: {fileID: 0}
