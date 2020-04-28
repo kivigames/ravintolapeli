@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using GameToolkit.Localization;
-using TMPro;
 using UnityEngine;
 
 public class RecipeManager : MonoBehaviour
@@ -20,20 +19,14 @@ public class RecipeManager : MonoBehaviour
     private RectTransform gradeModal = null;
 
     [SerializeField]
-    private TextMeshProUGUI gradeText = null;
+    private LocalizedTextBehaviour gradeText = null;
 
     private Recipe currentRecipe = null;
-    private string originalGradeText;
 
     public Recipe CurrentRecipe
     {
         get => currentRecipe;
         set => SetRecipe(currentRecipe = value);
-    }
-
-    private void Awake()
-    {
-        originalGradeText = gradeText.text;
     }
 
     private void Start()
@@ -62,7 +55,7 @@ public class RecipeManager : MonoBehaviour
             if (plated.Contains(ing))
                 correct += 1;
 
-        gradeText.text = string.Format(originalGradeText, correct, currentRecipe.Ingredients.Count);
+        gradeText.FormatArgs = new[] {correct.ToString(), currentRecipe.Ingredients.Count.ToString()};
         gradeModal.gameObject.SetActive(true);
     }
 }

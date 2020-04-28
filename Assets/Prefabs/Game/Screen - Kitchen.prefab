@@ -226,7 +226,7 @@ PrefabInstance:
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}
       propertyPath: m_text
-      value: Pilko
+      value: Chop
       objectReference: {fileID: 0}
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}
@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}
       propertyPath: m_text
-      value: "Keit\xE4"
+      value: Boil
       objectReference: {fileID: 0}
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}
@@ -488,9 +488,7 @@ PrefabInstance:
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_text
-      value: "Valmistaaksesi ainesosan, valitse se listasta oikealla ja klikkaa sitten
-        jotain mahdollisista valmistustavoista.\n\nKaikki tavat eiv\xE4t v\xE4ltt\xE4m\xE4tt\xE4
-        ole saatavilla joka ainesosalle."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
@@ -631,7 +629,7 @@ PrefabInstance:
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
       propertyPath: m_text
-      value: Valitut ainekset
+      value: Chosen ingredients
       objectReference: {fileID: 0}
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
@@ -952,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: "Ty\xF6tasolle"
+      value: To Counter
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1108,7 +1106,7 @@ PrefabInstance:
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}
       propertyPath: m_text
-      value: Paista
+      value: Fry
       objectReference: {fileID: 0}
     - target: {fileID: 7332580255852930318, guid: dc585d10224dccb41a87d37e1ad6af27,
         type: 3}

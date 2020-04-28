@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_text
-      value: Ruokakaappi
+      value: Cupboard
       objectReference: {fileID: 0}
     - target: {fileID: 7357629122012905356, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
@@ -261,7 +261,7 @@ PrefabInstance:
     - target: {fileID: 7357629122378524426, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_text
-      value: Sulje
+      value: Close
       objectReference: {fileID: 0}
     - target: {fileID: 7649178419570370247, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
@@ -336,9 +336,7 @@ PrefabInstance:
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_text
-      value: "T\xE4\xE4ll\xE4 voit lis\xE4t\xE4 aineksia valittuihin.\n\nKlikkaa
-        kaapin sis\xE4lt\xE4 ainesosaa lis\xE4t\xE4ksesi se oikealle listaan.\n\nAineksen
-        voi poistaa klikkaamalla sit\xE4 valittujen listasta."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
@@ -640,7 +638,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: Poistu
+      value: Exit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8ef3816095e1c84891a879a4162be13, type: 3}
@@ -685,7 +683,7 @@ PrefabInstance:
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
       propertyPath: m_text
-      value: Valitut ainekset
+      value: Chosen ingredients
       objectReference: {fileID: 0}
     - target: {fileID: 6067105716267113567, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
@@ -986,7 +984,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: "Ty\xF6tasolle"
+      value: To Counter
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1022,7 +1020,7 @@ PrefabInstance:
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_text
-      value: "J\xE4\xE4kaappi"
+      value: Fridge
       objectReference: {fileID: 0}
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
@@ -1147,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: 7357629122378524426, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_text
-      value: Sulje
+      value: Close
       objectReference: {fileID: 0}
     - target: {fileID: 7357629122465133635, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}

@@ -593,7 +593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lautanen
+  m_text: Plate
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1162,9 +1162,7 @@ PrefabInstance:
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_text
-      value: "T\xE4ss\xE4 ruudussa voit kasata valituista ainesosista annoksen.\n\nLis\xE4\xE4
-        ainesosa lautaselle klikkaamalla sit\xE4 listasta oikealta. Ainesosan voit
-        poistaa lautaselta klikkaamalla sit\xE4."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
@@ -1446,7 +1444,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: "Keitti\xF6\xF6n"
+      value: To Kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1632,7 +1630,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: Arvioi annos
+      value: Grade dish
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1687,7 +1685,7 @@ PrefabInstance:
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
       propertyPath: m_text
-      value: Valitut ainekset
+      value: Chosen ingredients
       objectReference: {fileID: 0}
     - target: {fileID: 6067105716267113567, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
@@ -2063,7 +2061,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_text
-      value: Varastoon
+      value: To Storage
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
