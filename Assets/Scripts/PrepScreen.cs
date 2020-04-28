@@ -11,13 +11,11 @@ public class PrepScreen : GameScreen
 
     private void Awake()
     {
-        Debug.Log("Prep: Awake");
         ingredientManager = FindObjectOfType<IngredientManager>();
     }
 
     private void OnEnable()
     {
-        Debug.Log("Prep: OnEnable");
         SetActiveIngredient(ingredientManager.ActiveIngredient);
         ingredientManager.onActiveIngredientChanged.AddListener(SetActiveIngredient);
     }

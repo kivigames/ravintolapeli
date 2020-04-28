@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Spaghetti (Boiled)
   m_EditorClassIdentifier: 
-  ingredientName: Spagetti (Keitetty)
+  ingredientName: {fileID: 11400000, guid: e7327324ffe384f429092f237552d897, type: 2}
   sprite: {fileID: 21300000, guid: 9d00f8a6ddf58704f9da4113e3d18e65, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}

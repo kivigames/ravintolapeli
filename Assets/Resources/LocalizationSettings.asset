@@ -15,11 +15,11 @@ MonoBehaviour:
   m_Version: 1
   m_AvailableLanguages: 
   m_AvailableLanguages2:
-  - m_Name: English
-    m_Code: en
-    m_Custom: 0
   - m_Name: Finnish
     m_Code: fi
     m_Custom: 0
-  m_ImportLocation: Assets
+  - m_Name: English
+    m_Code: en
+    m_Custom: 0
+  m_ImportLocation: Assets/Localization
   GoogleAuthenticationFile: {fileID: 0}

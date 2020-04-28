@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Tomato
   m_EditorClassIdentifier: 
-  ingredientName: Tomaatti
+  ingredientName: {fileID: 11400000, guid: 93e4cc6de520be94a80baf9b84929d84, type: 2}
   sprite: {fileID: 21300000, guid: 2bbb56ad45b953b43b83e061ea2b48e3, type: 3}
   storageType: 1
   choppedVersion: {fileID: 0}

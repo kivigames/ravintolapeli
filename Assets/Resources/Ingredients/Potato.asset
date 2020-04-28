@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Potato
   m_EditorClassIdentifier: 
-  ingredientName: Peruna
+  ingredientName: {fileID: 11400000, guid: 768f3a90fb4b8914e9fc339f9a72e1cf, type: 2}
   sprite: {fileID: 21300000, guid: 6acb3936c53821a448499ccd8c669782, type: 3}
   storageType: 1
   choppedVersion: {fileID: 0}

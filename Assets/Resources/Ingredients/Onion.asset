@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Onion
   m_EditorClassIdentifier: 
-  ingredientName: Sipuli
+  ingredientName: {fileID: 11400000, guid: fc6a271c569a70847987abe730136f35, type: 2}
   sprite: {fileID: 21300000, guid: 4965d974175c7a54cb4ed7c98e96062e, type: 3}
   storageType: 1
   choppedVersion: {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}

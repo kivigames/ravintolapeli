@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Tomato Sauce
   m_EditorClassIdentifier: 
-  ingredientName: Tomaattikastike
+  ingredientName: {fileID: 11400000, guid: 9fdd774b0e85edb42b31ac5c5f8894a7, type: 2}
   sprite: {fileID: 21300000, guid: 2edf100c28641a74cb7adab45cfc7a53, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}

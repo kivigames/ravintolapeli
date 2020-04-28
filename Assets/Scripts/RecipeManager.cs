@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using GameToolkit.Localization;
 using TMPro;
 using UnityEngine;
 
@@ -9,10 +10,10 @@ public class RecipeManager : MonoBehaviour
 
     [Header("Recipe display")]
     [SerializeField]
-    private TextMeshProUGUI recipeTitle = null;
+    private LocalizedTextBehaviour recipeTitle = null;
 
     [SerializeField]
-    private TextMeshProUGUI recipeText = null;
+    private LocalizedTextBehaviour recipeText = null;
 
     [Header("Recipe grading display")]
     [SerializeField]
@@ -44,13 +45,13 @@ public class RecipeManager : MonoBehaviour
     {
         if (recipeText && recipe)
         {
-            recipeTitle.text = recipe.RecipeName;
-            recipeText.text = recipe.IngredientText;
+            recipeTitle.LocalizedAsset = recipe.RecipeName;
+            recipeText.LocalizedAsset = recipe.IngredientText;
         }
         else if (recipeText)
         {
-            recipeTitle.text = "";
-            recipeText.text = "";
+            recipeTitle.LocalizedAsset = null;
+            recipeText.LocalizedAsset = null;
         }
     }
 

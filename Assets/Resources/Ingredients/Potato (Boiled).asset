@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Potato (Boiled)
   m_EditorClassIdentifier: 
-  ingredientName: Keitetty peruna
+  ingredientName: {fileID: 11400000, guid: 7ad4fcbaafcecf54c924e484d76b3bdb, type: 2}
   sprite: {fileID: 21300000, guid: 6acb3936c53821a448499ccd8c669782, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}

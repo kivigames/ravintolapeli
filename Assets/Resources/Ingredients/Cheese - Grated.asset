@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Cheese - Grated
   m_EditorClassIdentifier: 
-  ingredientName: Juustoraaste
+  ingredientName: {fileID: 11400000, guid: b4a6896a268e0ae408a124b5912df600, type: 2}
   sprite: {fileID: 21300000, guid: e7a16058963b63a40a9315b2e8dcac68, type: 3}
   storageType: 2
   choppedVersion: {fileID: 0}

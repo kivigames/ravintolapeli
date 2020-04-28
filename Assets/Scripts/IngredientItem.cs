@@ -1,3 +1,4 @@
+using GameToolkit.Localization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,7 +6,7 @@ using UnityEngine.UI;
 public class IngredientItem : MonoBehaviour
 {
     [SerializeField]
-    private TextMeshProUGUI text = null;
+    private LocalizedTextBehaviour text = null;
 
     [SerializeField]
     private Image image = null;
@@ -31,7 +32,7 @@ public class IngredientItem : MonoBehaviour
         ingredient = ing;
 
         if (text)
-            text.text = ing.IngredientName;
+            text.LocalizedAsset = ing.IngredientName;
         if (image)
             image.sprite = ing.Sprite;
     }

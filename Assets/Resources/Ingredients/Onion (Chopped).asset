@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
   m_Name: Onion (Chopped)
   m_EditorClassIdentifier: 
-  ingredientName: Pilkottu sipuli
+  ingredientName: {fileID: 11400000, guid: dad9c4d65acc6384eaafbc1da94d08d7, type: 2}
   sprite: {fileID: 21300000, guid: 4965d974175c7a54cb4ed7c98e96062e, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}
