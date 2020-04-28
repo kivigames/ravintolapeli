@@ -19,6 +19,12 @@ public class Recipe : ScriptableObject
     private string ingredientText = null;
 
     public string IngredientText => ingredientText;
+    
+    [SerializeField]
+    [TextArea]
+    private string measurementsText = null;
+
+    public string MeasurementsText => measurementsText;
 
     [SerializeField]
     [TextArea]

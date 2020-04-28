@@ -20,6 +20,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
   ingredientText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Tomaattikastiketta\n-
     Keitetty\xE4 perunaa"
+  measurementsText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Tomaattikastiketta\n-
+    Keitetty\xE4 perunaa"
   recipeText: "Valmistus (valmistusaika noin 20 minuuttia):\nAseta paloiteltu liha
     pannulle paistumaan.\n\nPilko kokonainen sipuli ja paista lihan kanssa kunnes
     liha on t\xE4ysin kyps\xE4\xE4.\n\nPilko tomaattia ja lis\xE4\xE4 muiden ainesten

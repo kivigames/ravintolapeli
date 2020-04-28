@@ -20,6 +20,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bd6b35dc1e8bb3e4aa6c9a5ba35a051c, type: 2}
   ingredientText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Pilkottua porkkanaa\n-
     Keitetty\xE4 perunaa\n- Keitetty\xE4 lanttua"
+  measurementsText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Pilkottua porkkanaa\n-
+    Keitetty\xE4 perunaa\n- Keitetty\xE4 lanttua"
   recipeText: "Valmistus (yli 3 tuntia):\nAseta uunin l\xE4mp\xF6tila 200 asteeseen
     ja ota esille paistovuoka sek\xE4 paistinpannu.\n\nPaista paloiteltu liha voissa 
     ja aloita muiden ainesten valmistelu.\n\nPilko sipuli ja t\xE4yt\xE4 paistovuoka

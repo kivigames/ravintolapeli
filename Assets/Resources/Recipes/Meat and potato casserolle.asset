@@ -26,6 +26,14 @@ MonoBehaviour:
     peuna
 
     - Pilkottua sipuli'
+  measurementsText: '- Paistettua jauhelihaa
+
+    - Pilkottu porkkana
+
+    - Keitetty
+    peuna
+
+    - Pilkottua sipuli'
   recipeText: "Valmistus (valmistusaika noin 60 minuuttia):\nL\xE4mmit\xE4 uuni 225
     asteeseen ja ota esille paistovuoka sek\xE4 paistinpannu. \n\nAseta liha kuumalle
     paistinpannulle, ja kun liha on kyps\xE4, lis\xE4\xE4 se paistovuokaan.\n\nPilko

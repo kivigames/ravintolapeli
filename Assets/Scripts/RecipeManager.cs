@@ -45,7 +45,7 @@ public class RecipeManager : MonoBehaviour
         if (recipeText && recipe)
         {
             recipeTitle.text = recipe.RecipeName;
-            recipeText.text = recipe.IngredientText;
+            recipeText.text = recipe.MeasurementsText;
         }
         else if (recipeText)
         {
