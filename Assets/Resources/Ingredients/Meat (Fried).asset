@@ -15,6 +15,6 @@ MonoBehaviour:
   ingredientName: {fileID: 11400000, guid: ad79afc7e00cf4848a157dae9c2f3e5f, type: 2}
   sprite: {fileID: 21300000, guid: 6f75469fa18806a4bb0098f82c4aeca6, type: 3}
   storageType: 0
-  choppedVersion: {fileID: 0}
+  choppedVersion: {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
   boiledVersion: {fileID: 0}
   friedVersion: {fileID: 0}
