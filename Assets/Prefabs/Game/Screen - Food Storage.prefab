@@ -66,12 +66,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25075653, g: 0.3809193, b: 0.46226418, a: 1}
+  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 785222ffc1cca40409b176564abb14b7, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -121,7 +121,7 @@ PrefabInstance:
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
@@ -311,27 +311,27 @@ PrefabInstance:
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 168
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
@@ -341,7 +341,7 @@ PrefabInstance:
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
       propertyPath: m_fontSize
-      value: 34.25
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5460041254739802567, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}
@@ -618,7 +618,7 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -658,7 +658,7 @@ PrefabInstance:
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2775550844336133205, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
@@ -688,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 6067105716267113567, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6067105716430373848, guid: 97170269dd039b0418ecd5c31d24869b,
         type: 3}
@@ -969,12 +969,12 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -989,12 +989,12 @@ PrefabInstance:
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_fontSize
-      value: 46.55
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 4615936961349916327, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8ef3816095e1c84891a879a4162be13, type: 3}
@@ -1025,7 +1025,28 @@ PrefabInstance:
     - target: {fileID: 7357629121101903134, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 9
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357629122012905347, guid: 59148454fd5d4e5498bd8950b23508cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357629122012905347, guid: 59148454fd5d4e5498bd8950b23508cc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 294ce4ef9f218cd41a1b5595d9e0d32e,
+        type: 3}
+    - target: {fileID: 7357629122012905347, guid: 59148454fd5d4e5498bd8950b23508cc,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357629122012905347, guid: 59148454fd5d4e5498bd8950b23508cc,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7357629122012905356, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}
@@ -1141,6 +1162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Button - Open Container
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357629122245127017, guid: 59148454fd5d4e5498bd8950b23508cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7357629122378524426, guid: 59148454fd5d4e5498bd8950b23508cc,
         type: 3}

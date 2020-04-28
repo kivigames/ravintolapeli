@@ -941,6 +941,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 215507770486572148, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.07702637
+      objectReference: {fileID: 0}
     - target: {fileID: 245107549574123343, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1601,7 +1606,7 @@ PrefabInstance:
     - target: {fileID: 2242122410814324349, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
       propertyPath: m_text
-      value: "J\xE4\xE4kaappi"
+      value: Fridge
       objectReference: {fileID: 0}
     - target: {fileID: 2242122410814324349, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
@@ -1772,6 +1777,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242122412391176203, guid: a64992b4f5d3b16428739f48369799d9,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242122412391176203, guid: a64992b4f5d3b16428739f48369799d9,
+        type: 3}
+      propertyPath: m_FillMethod
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2242122412414623479, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
@@ -2031,7 +2046,7 @@ PrefabInstance:
     - target: {fileID: 8720678345227224253, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
       propertyPath: m_text
-      value: Ruokakaappi
+      value: Cupboard
       objectReference: {fileID: 0}
     - target: {fileID: 8720678345227224253, guid: a64992b4f5d3b16428739f48369799d9,
         type: 3}
@@ -2290,7 +2305,7 @@ PrefabInstance:
     - target: {fileID: 7806777729247248587, guid: 86c7870ab981e5e45b1f6ec6f9242116,
         type: 3}
       propertyPath: m_text
-      value: Pilko
+      value: Chop
       objectReference: {fileID: 0}
     - target: {fileID: 7806777729247248587, guid: 86c7870ab981e5e45b1f6ec6f9242116,
         type: 3}
