@@ -9,6 +9,7 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.12",
     "com.unity.ugui": "1.0.0",
+    "hip.gametoolkit.localization": "https://github.com/ibrahimpenekli/GameToolkit-Localization.git#2.1.1",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -33,5 +34,11 @@
     "com.unity.modules.unitywebrequestwww": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0"
+  },
+  "lock": {
+    "hip.gametoolkit.localization": {
+      "revision": "2.1.1",
+      "hash": "3559777b37479db84d892b06a948ac20274cc612"
+    }
   }
 }

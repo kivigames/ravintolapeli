@@ -12,26 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
   m_Name: Spaghetti Bolognese
   m_EditorClassIdentifier: 
-  recipeName: Spaghetti Bolognese
+  recipeName: {fileID: 11400000, guid: fc874f7cc4f9adc4d855a66de9a047e2, type: 2}
   ingredients:
   - {fileID: 11400000, guid: 24a1f163657f7e24e9e1f03ac61306a8, type: 2}
   - {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
   - {fileID: 11400000, guid: 16ab3da0e2b374c48816bbbdbcd6ea0c, type: 2}
   - {fileID: 11400000, guid: d50ea7ea23d654e4c8e6d3efbb5d5c74, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
-  ingredientText: '- Keitetty spagetti
-
-    - Pilkottu sipuli
-
-    - Paistettu
-    jauheliha
-
-    - Tomaattikastike
-
-    - Juustoraaste'
-  recipeText: "Valmistus:\r\nKuumenna pannu ja ruskista jauheliha ja hienonnettu
-    sipuli. Lis\xE4\xE4 valkosipulimurska. Mausta seos suolalla ja pippurilla.\r\n\r\nLis\xE4\xE4
-    tomaattimurska sek\xE4 raastettu porkkana. Halutessasi kastikkeeseen hieman potkua
-    voit lis\xE4t\xE4 ripauksen chilijauhetta tai hienoksi silputtua tuoretta chili\xE4.
-    \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4 v\xE4hint\xE4\xE4n 15-20 minuuttia.
-    Tarjoile kastike keitetyn spagetin kera."
+  ingredientsText: {fileID: 11400000, guid: feabda7044462714cb57181e7bce8235, type: 2}
+  simpleIngredientsText: {fileID: 11400000, guid: ad9136118415c3d40a189383cc49ff8b,
+    type: 2}
+  recipeText: {fileID: 11400000, guid: 151dade90a551fe47ad40826f3b409db, type: 2}

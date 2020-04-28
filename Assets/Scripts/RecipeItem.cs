@@ -1,4 +1,4 @@
-﻿using TMPro;
+﻿using GameToolkit.Localization;
 using UnityEngine;
 
 public class RecipeItem : MonoBehaviour
@@ -6,7 +6,7 @@ public class RecipeItem : MonoBehaviour
     private Recipe recipe;
 
     [SerializeField]
-    private TextMeshProUGUI titleText = null;
+    private LocalizedTextBehaviour titleText = null;
 
     public Recipe Recipe
     {
@@ -16,6 +16,6 @@ public class RecipeItem : MonoBehaviour
 
     private void SetRecipe(Recipe newRecipe)
     {
-        titleText.text = newRecipe.RecipeName;
+        titleText.LocalizedAsset = newRecipe.RecipeName;
     }
 }

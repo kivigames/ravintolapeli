@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using GameToolkit.Localization;
 using TMPro;
 using UnityEngine;
 
@@ -9,16 +10,16 @@ public class RecipeMenu : MonoBehaviour
     private int currentRecipe;
 
     [SerializeField]
-    private TextMeshProUGUI titleText = null;
+    private LocalizedTextBehaviour titleText = null;
 
     [SerializeField]
     private TextMeshProUGUI pageText = null;
 
     [SerializeField]
-    private TextMeshProUGUI ingredientText = null;
+    private LocalizedTextBehaviour ingredientText = null;
 
     [SerializeField]
-    private TextMeshProUGUI recipeText = null;
+    private LocalizedTextBehaviour recipeText = null;
 
     private void Start()
     {
@@ -43,15 +44,15 @@ public class RecipeMenu : MonoBehaviour
         var recipe = allRecipes[index];
 
         if (titleText)
-            titleText.text = recipe.RecipeName;
+            titleText.LocalizedAsset = recipe.RecipeName;
 
         if (pageText)
-            pageText.text = (index + 1) + "/" + allRecipes.Count;
+            pageText.text = index + 1 + "/" + allRecipes.Count;
 
         if (ingredientText)
-            ingredientText.text = recipe.IngredientText;
+            ingredientText.LocalizedAsset = recipe.IngredientText;
 
         if (recipeText)
-            recipeText.text = recipe.RecipeText;
+            recipeText.LocalizedAsset = recipe.RecipeText;
     }
 }

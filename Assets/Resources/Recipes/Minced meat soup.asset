@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
   m_Name: Minced meat soup
   m_EditorClassIdentifier: 
-  recipeName: Jauhelihakeitto
+  recipeName: {fileID: 11400000, guid: 9f422fe82a9f36c459c084997888da69, type: 2}
   ingredients:
   - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
   - {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
-  ingredientText: "- Keitetty\xE4 perunaa\n- Paistettua jauhelihaa\n- Pilkottua sipulia"
-  recipeText: 
+  ingredientsText: {fileID: 11400000, guid: e3ac8d2a90cdb2f4da55c09150f4d5a5, type: 2}
+  simpleIngredientsText: {fileID: 11400000, guid: 067e74954d892bd468b0e1d844fe8acd,
+    type: 2}
+  recipeText: {fileID: 11400000, guid: e8a3bfe68d1e43c499f91399bca205b5, type: 2}

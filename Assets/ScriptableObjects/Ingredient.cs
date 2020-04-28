@@ -1,10 +1,11 @@
+using GameToolkit.Localization;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Ingredient", menuName = "Ingredient", order = 0)]
 public class Ingredient : ScriptableObject
 {
     [SerializeField]
-    private string ingredientName = null;
+    private LocalizedText ingredientName = null;
 
     [SerializeField]
     private Sprite sprite = null;
@@ -21,7 +22,7 @@ public class Ingredient : ScriptableObject
     [SerializeField]
     private Ingredient friedVersion = null;
 
-    public string IngredientName => ingredientName;
+    public LocalizedText IngredientName => ingredientName;
 
     public Sprite Sprite => sprite;
 

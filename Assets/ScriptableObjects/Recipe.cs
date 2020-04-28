@@ -1,28 +1,32 @@
 using System.Collections.Generic;
+using GameToolkit.Localization;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Recipe", menuName = "Recipe", order = 0)]
 public class Recipe : ScriptableObject
 {
     [SerializeField]
-    private string recipeName = null;
-
-    public string RecipeName => recipeName;
+    private LocalizedText recipeName = null;
 
     [SerializeField]
     private List<Ingredient> ingredients = new List<Ingredient>();
 
+    [SerializeField]
+    private LocalizedText ingredientsText = null;
+
+    [SerializeField]
+    private LocalizedText simpleIngredientsText = null;
+
+    [SerializeField]
+    private LocalizedText recipeText = null;
+
+    public LocalizedText RecipeName => recipeName;
+
     public List<Ingredient> Ingredients => ingredients;
 
-    [SerializeField]
-    [TextArea]
-    private string ingredientText = null;
+    public LocalizedText IngredientText => ingredientsText;
 
-    public string IngredientText => ingredientText;
+    public LocalizedText SimpleIngredientText => simpleIngredientsText;
 
-    [SerializeField]
-    [TextArea]
-    private string recipeText = null;
-
-    public string RecipeText => recipeText;
+    public LocalizedText RecipeText => recipeText;
 }
