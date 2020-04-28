@@ -18,4 +18,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
   ingredientText: "- Keitetty\xE4 perunaa\n- Paistettua jauhelihaa\n- Pilkottua sipulia"
-  recipeText: 
+  recipeText: "Valmistus (noin 45 minuuttia)\nRuskista jauheliha ja paista sipuli
+    rasvassa.\n\nViipaloi perunat ja pilko muut juurekset.\n\nLaita kattilaan perunat,
+    jauheliha, juurekset, pippurit, vesi ja lihaliemikuutiot. \n\nKeit\xE4 keittoa,
+    kunnes se vaikuttaa kyps\xE4lt\xE4. \n\nMausta valmis keitto suolalla ja persiljalla."

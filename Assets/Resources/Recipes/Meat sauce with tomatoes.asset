@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
+  m_Name: Meat sauce with tomatoes
+  m_EditorClassIdentifier: 
+  recipeName: Tomaattinen lihakastike
+  ingredients:
+  - {fileID: 11400000, guid: f461e42244f2897468ab257c819d8067, type: 2}
+  - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
+  - {fileID: 11400000, guid: 16ab3da0e2b374c48816bbbdbcd6ea0c, type: 2}
+  - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
+  ingredientText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Tomaattikastiketta\n-
+    Keitetty\xE4 perunaa"
+  recipeText: "Valmistus (valmistusaika noin 20 minuuttia):\nAseta paloiteltu liha
+    pannulle paistumaan.\n\nPilko kokonainen sipuli ja paista lihan kanssa kunnes
+    liha on t\xE4ysin kyps\xE4\xE4.\n\nPilko tomaattia ja lis\xE4\xE4 muiden ainesten
+    joukkoon, kun liha on kyps\xE4.\n\nPienenn\xE4 levyn l\xE4mp\xF6tilaa ja sekoita
+    kuumalla levyll\xE4 kunnes kastike on kiehunut noin 5 minuuttia.\n\nMausta kastike
+    oman maun mukaan.\nTarjoile pastan, riisin tai perunoiden kera.\nKokeile my\xF6s
+    eri lihojen ja kasvisten kanssa."

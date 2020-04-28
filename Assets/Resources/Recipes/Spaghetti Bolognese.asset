@@ -23,15 +23,15 @@ MonoBehaviour:
 
     - Pilkottu sipuli
 
-    - Paistettu
-    jauheliha
+    - Paistettu jauheliha
 
-    - Tomaattikastike
+    -
+    Tomaattikastike
 
     - Juustoraaste'
-  recipeText: "Valmistus:\r\nKuumenna pannu ja ruskista jauheliha ja hienonnettu
-    sipuli. Lis\xE4\xE4 valkosipulimurska. Mausta seos suolalla ja pippurilla.\r\n\r\nLis\xE4\xE4
-    tomaattimurska sek\xE4 raastettu porkkana. Halutessasi kastikkeeseen hieman potkua
-    voit lis\xE4t\xE4 ripauksen chilijauhetta tai hienoksi silputtua tuoretta chili\xE4.
-    \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4 v\xE4hint\xE4\xE4n 15-20 minuuttia.
-    Tarjoile kastike keitetyn spagetin kera."
+  recipeText: "Valmistus (noin 35 minuuttia):\r\nKuumenna pannu ja ruskista jauheliha
+    ja hienonnettu sipuli. Lis\xE4\xE4 valkosipulimurska. Mausta seos suolalla ja
+    pippurilla.\r\n\r\nLis\xE4\xE4 tomaattimurska sek\xE4 raastettu porkkana. Halutessasi
+    kastikkeeseen hieman potkua voit lis\xE4t\xE4 ripauksen chilijauhetta tai hienoksi
+    silputtua tuoretta chili\xE4. \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4 v\xE4hint\xE4\xE4n
+    15-20 minuuttia. Tarjoile kastike keitetyn spagetin kera."

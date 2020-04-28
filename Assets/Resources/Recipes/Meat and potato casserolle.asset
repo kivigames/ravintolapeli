@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
+  m_Name: Meat and potato casserolle
+  m_EditorClassIdentifier: 
+  recipeName: Porkkanainen Lihakiusaus
+  ingredients:
+  - {fileID: 11400000, guid: fe74561542c6edd4b9a1bd59457a089c, type: 2}
+  - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
+  - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
+  - {fileID: 11400000, guid: 23904018a85ff6345930cb9ef59c9770, type: 2}
+  ingredientText: '- Paistettua jauhelihaa
+
+    - Pilkottu porkkana
+
+    - Keitetty
+    peuna
+
+    - Pilkottua sipuli'
+  recipeText: "Valmistus (valmistusaika noin 60 minuuttia):\nL\xE4mmit\xE4 uuni 225
+    asteeseen ja ota esille paistovuoka sek\xE4 paistinpannu. \n\nAseta liha kuumalle
+    paistinpannulle, ja kun liha on kyps\xE4, lis\xE4\xE4 se paistovuokaan.\n\nPilko
+    vihannekset ja lis\xE4\xE4 nekin paistovuokaan\n\nKun liha ja vihannekset ovat
+    paistovuoassa, lis\xE4\xE4 joukkoon pakastetut perunasuikaleet (tai pilkotut
+    ja keitetyt perunasuikaleet).\n\nLis\xE4\xE4 seoksen joukkoon maito tai ruokakerma
+    ja sekoita seosta. \n\nSeoksen voi nostaa uuniin, kun seos on hyvin sekoitettu
+    ja uuni on l\xE4mmennyt 225 aasteeseen\n\nLis\xE4\xE4 kansi ja paista seos uunin
+    keski- tai alaosassa noin 50 minuuttia.\nOta vuoan kansi pois ja jatka paistamista
+    noin 5 minuuttia tai kunnes ruoan pinta on kullanruskean v\xE4rinen.\n\nOta vuoka
+    pois uunista ja tarkista ruoan kypsyys vuoan keskiosalta.\n\nTarjoile ruoka selllaisenaan."

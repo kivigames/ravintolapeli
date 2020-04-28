@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
+  m_Name: Karelian hot pot
+  m_EditorClassIdentifier: 
+  recipeName: Karjalanpaisti
+  ingredients:
+  - {fileID: 11400000, guid: f461e42244f2897468ab257c819d8067, type: 2}
+  - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
+  - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
+  - {fileID: 11400000, guid: bd6b35dc1e8bb3e4aa6c9a5ba35a051c, type: 2}
+  ingredientText: "- Paistettua lihaa\n- Pilkottua sipulia\n- Pilkottua porkkanaa\n-
+    Keitetty\xE4 perunaa\n- Keitetty\xE4 lanttua"
+  recipeText: "Valmistus (yli 3 tuntia):\nAseta uunin l\xE4mp\xF6tila 200 asteeseen
+    ja ota esille paistovuoka sek\xE4 paistinpannu.\n\nPaista paloiteltu liha voissa 
+    ja aloita muiden ainesten valmistelu.\n\nPilko sipuli ja t\xE4yt\xE4 paistovuoka
+    noin puoleenv\xE4liin saakka vedell\xE4.\n\nLis\xE4\xE4 kaikki ainekset paistovuokaan
+    la lis\xE4\xE4 joukkoon noin 10  mustapippuria ja muutama laakerinlehti. Lis\xE4\xE4
+    vuokaan runsaasti vett\xE4.\n\nAseta kansi vuoan p\xE4\xE4lle ja laita vuoka
+    uuniin enint\xE4\xE4n 3 tunniksi.\n\nPilko perunat sek\xE4 lanttu ja lis\xE4\xE4
+    ne vedell\xE4 t\xE4ytettyyn kattilaan. Keit\xE4 perunoita ja lanttua kunnes ne
+    ovat pehmeit\xE4 sis\xE4lt\xE4.\n\nTarkastele tunneittain paistin vesim\xE4\xE4r\xE4\xE4
+    ja lis\xE4\xE4 vett\xE4 tarvittaessa.\n\nKun paisti vaikuttaa valmiilta, ota
+    kansi pois ja pid\xE4 uunissa ilman kantta noin 10-15 minuuttia.\n\nTarjoile
+    paisti keitettyjen perunoiden ja lantun kera."
