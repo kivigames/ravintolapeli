@@ -18,7 +18,13 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: 'To prepare an ingredient, select it from the list and then click one
+      of the cooking tools.
+
+      
+
+      Some tools might not be available for
+      some ingredients.'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish

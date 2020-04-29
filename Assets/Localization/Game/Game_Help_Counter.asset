@@ -18,7 +18,12 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: 'In this screen you can assemble a dish from your ingredients.
+
+
+      Add
+      an ingredient on the plate by clicking it from the list on the right. You can
+      remove an ingredient from the plate by clicking it.'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
