@@ -18,14 +18,24 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: '- Boiled potato
+    m_Value: '- 600 g of potatoes
 
-      - Fried ground meat
+      - 400 g of minced meat
 
-      - Chopped onion'
+      - a whole
+      onion
+
+      - 3-4 carrots'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "- Keitetty\xE4 perunaa\r\n- Paistettua jauhelihaa\r\n- Pilkottua sipulia\r"
+    m_Value: '- 600g perunaa
+
+      - 400 g jauhelihaa
+
+      - Kokonainen sipuli
+
+      -
+      3-4 porkkanaa'

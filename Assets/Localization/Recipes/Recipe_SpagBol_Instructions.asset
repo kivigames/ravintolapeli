@@ -18,7 +18,11 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: "Preparation (about 35 minutes):\r\nTun on the stove and fry the minced
+      meat and add the chopped onion. add crushed garlic. Season with salt and pepper.\r\n\r\nAdd
+      the crushed tomatoes and the grated carrot. You can also add some chili powder
+      or fresh chopped chili pepper. \r\n\r\nBoil the mixture at low heat for at
+      least 15-20 minutes. Serve with cooked spaghetti."
   - m_Language: -1
     m_Language2:
       m_Name: Finnish

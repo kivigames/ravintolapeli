@@ -18,7 +18,16 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: '- Fried meat
+
+      - Chopped onion
+
+      - Chopped carrot
+
+      -
+      Boiled potato
+
+      - Boiled turnip'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish

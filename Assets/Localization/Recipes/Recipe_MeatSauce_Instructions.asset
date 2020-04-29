@@ -18,16 +18,44 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: 'Preparation (about 25 minutes):
+
+      Place the meat on the frying
+      pan.
+
+      
+
+      Chop the onion and fry with the meat until the meat is
+      fully cooked.
+
+      
+
+      When the meat is cooked, add the crushed tomatoes.
+
+      
+
+      Lower
+      the stove heat and continue mixing the sauce until it has boiled for 5-10 minutes.
+
+      
+
+      Season
+      with salt and pepper before serving.
+
+      Serve the sauce with vegetables
+      and either pasta rice or potatoes.
+
+      Also try making the sauce with different
+      meat.'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "Valmistus (valmistusaika noin 20 minuuttia):\r\nAseta paloiteltu liha
-      pannulle paistumaan.\r\n\r\nPilko kokonainen sipuli ja paista lihan kanssa
-      kunnes liha on t\xE4ysin kyps\xE4\xE4.\r\n\r\nPilko tomaattia ja lis\xE4\xE4
-      muiden ainesten joukkoon, kun liha on kyps\xE4.\r\n\r\nPienenn\xE4 levyn l\xE4mp\xF6tilaa
-      ja sekoita kuumalla levyll\xE4 kunnes kastike on kiehunut noin 5 minuuttia.\r\n\r\nMausta
-      kastike oman maun mukaan.\r\nTarjoile pastan, riisin tai perunoiden kera.\r\nKokeile
-      my\xF6s eri lihojen ja kasvisten kanssa."
+    m_Value: "Valmistus (noin 25 minuuttia):\r\nAseta liha pannulle paistumaan.\r\n\r\nPilko
+      sipuli ja paista lihan kanssa kunnes liha on t\xE4ysin kyps\xE4\xE4.\r\n\r\nLihan
+      ollessa kyps\xE4\xE4 lis\xE4\xE4 joukkoon tomaattimurska ja mausta oman maun
+      mukaan.\r\n\r\nPienenn\xE4 levyn l\xE4mp\xF6tilaa ja sekoita kuumalla levyll\xE4
+      kunnes kastike on kiehunut 5-10 minuuttia.\r\n\r\nMausta kastike suolalla ja
+      pippurilla.\r\nTarjoile vihannesten sek\xE4 pastan, riisin tai perunoiden kera.\r\nKokeile
+      my\xF6s eri lihojen kanssa."

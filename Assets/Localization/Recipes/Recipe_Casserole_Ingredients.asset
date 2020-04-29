@@ -18,17 +18,26 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: "- About 500g of minced meat \r\n- 2-3 carrots\r\n- 650g of sliced potatoes
+      (frozen or cooked)\r\n- 1 whole onion\r\n- 2-3dl of grated cheese\r\n\nGarnish
+      with chooped parsley"
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: '- Paistettua jauhelihaa
+    m_Value: '- n. 500g Jauhelihaa
 
-      - Pilkottu porkkana
+      - 2-3 Porkkanaa
 
-      - Keitetty
-      peruna
+      - 650g Perunasipulisekoitusta
 
-      - Pilkottu sipuli'
+      -
+      1 Sipuli
+
+      - 2-3dl Juustoraastetta
+
+      
+
+      Koristele silpotulla
+      persiljalla'

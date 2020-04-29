@@ -18,19 +18,34 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: '- Cooked spaghetti
+
+      - 400 g of minced meat
+
+      - 1 dl of
+      onion
+
+      - 3 cloves of garlic
+
+      - 3 spoons of vegetable oil
+
+      -
+      1 tsp of salt
+
+      - 400 g of crushed tomatoes
+
+      - 1 small can of
+      tomato paste
+
+      - 1 carrot
+
+      - 1 tsp of chili powder'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: '- Keitetty spagetti
-
-      - Pilkottu sipuli
-
-      - Paistettu jauheliha
-
-      -
-      Tomaattikastike
-
-      - Juustoraaste'
+    m_Value: "- Keitetty\xE4 spagettia\r\n- 400 g jauhelihaa\r\n- 1 dl sipulia\r\n-
+      3 kpl valkosipulinkyntt\xE4\r\n- 3 rkl \xF6ljy\xE4\r\n- 1 tl suolaa\r\n- 400
+      g tomaattimurskaa\r\n- 2 rkl tomaattipyreet\xE4\r\n- 1 kpl porkkana\r\n- 1
+      tl chilijauhetta "

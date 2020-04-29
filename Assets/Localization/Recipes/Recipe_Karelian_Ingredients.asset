@@ -18,11 +18,28 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: '- About 800g of chopped meat
+
+      - 1 whole onion
+
+      - 2-3
+      carrots
+
+      - 2 bay leaves
+
+      - 10 whole allspice
+
+      
+
+      Additionally:
+
+      Serve
+      with boiled potatoes and turnips'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "- Paistettua lihaa\r\n- Pilkottua sipulia\r\n- Pilkottua porkkanaa\r\n-
-      Keitetty\xE4 perunaa\r\n- Keitetty\xE4 lanttua"
+    m_Value: "- n. 800g lihaa paloiteltuna\r\n- 1 kokonainen sipulia\r\n- 2-3 porkkanaa\r\n-
+      2 laakerinlehte\xE4\r\n- 10 kokonaista maustepippuria\r\n\r\nLis\xE4ksi:\r\nLanttua
+      ja perunaa keitettyn\xE4"

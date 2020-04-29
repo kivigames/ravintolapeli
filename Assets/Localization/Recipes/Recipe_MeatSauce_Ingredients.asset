@@ -18,11 +18,20 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: '- 400 g of Meat
+
+      - one half or a whole onion
+
+      - 400-800
+      g of crushed tomatoes'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "- Paistettua lihaa\r\n- Pilkottua sipulia\r\n- Tomaattikastiketta\r\n-
-      Keitetty\xE4 perunaa\r\n"
+    m_Value: '- 400 g Lihaa
+
+      - Puolikas tai kokonainen sipuli
+
+      - 400-800
+      g Tomaattimurskaa'

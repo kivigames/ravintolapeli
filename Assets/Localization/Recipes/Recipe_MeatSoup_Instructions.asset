@@ -18,7 +18,11 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: 
+    m_Value: "Valmistus (noin 45 minuuttia)\r\nFry the minced meat and onion in butter
+      or vegetable oil.\r\n\r\nChop the potatoes and the other vegetables.\r\n\r\nPut
+      in a pot the potatoes, minced meat, vegetables, all spice, water and beef stock.
+      \r\n\r\nBoil the soup until it seems ready\r\nSeason the soup with salt and
+      parsley"
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
