@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rice (Boiled)
   m_EditorClassIdentifier: 
   ingredientName: {fileID: 11400000, guid: 9834f2f78e56f5745abc681dddf83904, type: 2}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: ce8e68dbf54b81f4a879972cd905ee15, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 0}
