@@ -119,7 +119,9 @@ public class CounterScreen : GameScreen
 
             Debug.Log($"Possible: {recipe.RecipeName.Value}: {matching.Count}/{ingCount}");
 
-            possibleRecipes.Add(new Tuple<Recipe, int>(recipe, matching.Count));
+            // Only add if any ingredients match
+            if (matching.Count > 0)
+                possibleRecipes.Add(new Tuple<Recipe, int>(recipe, matching.Count));
         }
 
         // Sort recipes by missing ingredient count (missing = total ingredient count - matching ingredient count)
