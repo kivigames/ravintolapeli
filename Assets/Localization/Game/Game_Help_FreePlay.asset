@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Game_Help_FreePlay
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: 'In Free Play mode, you can find suitable recipes using ingredients
+      you already have.
+
+
+      Just put ingredients you have onto the plate and
+      click the button to see which recipes you could make.'
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: "Vapaapeliss\xE4 voit l\xF6yt\xE4\xE4 sopivia reseptej\xE4, jotka voit
+      tehd\xE4 j\xE4\xE4kaappisi ainesosilla.\n\nLaita ainesosasi lautaselle ja paina
+      nappulaa n\xE4hd\xE4ksesi, mit\xE4 reseptej\xE4 voit valmistaa."

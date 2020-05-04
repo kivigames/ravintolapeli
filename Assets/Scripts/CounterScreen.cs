@@ -17,6 +17,9 @@ public class CounterScreen : GameScreen
     [SerializeField]
     private PossibleRecipeList possibleRecipesList = null;
 
+    [SerializeField]
+    private GameObject freePlayHelpPanel = null;
+
     [Header("Recipe display")]
     [SerializeField]
     private RecipeDisplay recipeDisplay = null;
@@ -31,6 +34,8 @@ public class CounterScreen : GameScreen
 
         gradeButton.gameObject.SetActive(recipeDisplay.Recipe != null);
         recipesButton.gameObject.SetActive(recipeDisplay.Recipe == null);
+        if (freePlayHelpPanel)
+            freePlayHelpPanel.SetActive(recipeDisplay.Recipe == null);
     }
 
     public void ShowGrade()
