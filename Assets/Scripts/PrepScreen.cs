@@ -3,9 +3,14 @@ using UnityEngine.UI;
 
 public class PrepScreen : GameScreen
 {
-    public Button chopButton;
-    public Button boilButton;
-    public Button fryButton;
+    [SerializeField]
+    private Button chopButton = null;
+
+    [SerializeField]
+    private Button boilButton = null;
+
+    [SerializeField]
+    private Button fryButton = null;
 
     private IngredientManager ingredientManager;
 
@@ -17,13 +22,13 @@ public class PrepScreen : GameScreen
     private void OnEnable()
     {
         SetActiveIngredient(ingredientManager.ActiveIngredient);
-        ingredientManager.onActiveIngredientChanged.AddListener(SetActiveIngredient);
+        ingredientManager.OnActiveIngredientChanged.AddListener(SetActiveIngredient);
     }
 
     private void OnDisable()
     {
         SetActiveIngredient(null);
-        ingredientManager.onActiveIngredientChanged.RemoveListener(SetActiveIngredient);
+        ingredientManager.OnActiveIngredientChanged.RemoveListener(SetActiveIngredient);
     }
 
     private void SetActiveIngredient(Ingredient ingredient)

@@ -42,11 +42,13 @@ public class Settings : MonoBehaviour
 
     private void Start()
     {
+        // Load and restore saved values to options screen.
         if (languageDropdown)
         {
             languageDropdown.ClearOptions();
             languageDropdown.AddOptions(GetLanguages());
 
+            // Use saved language, or system language if none saved.
             var lang = GetSavedLanguage();
             if (lang != Language.Unknown)
             {
@@ -115,6 +117,7 @@ public class Settings : MonoBehaviour
             if (language != null) return language;
         }
 
+        // Use system language if none other found.
         Localization.Instance.SetSystemLanguage();
 
         return Localization.Instance.CurrentLanguage;

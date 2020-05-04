@@ -5,13 +5,17 @@ public class ScreenManager : MonoBehaviour
 {
     private GameScreen currentScreen;
 
-    public ScreenType initialScreen;
+    [SerializeField]
+    private ScreenType initialScreen = ScreenType.FoodCounter;
 
-    public GameScreen foodStorageScreen;
+    [SerializeField]
+    private GameScreen foodStorageScreen = null;
 
-    public GameScreen foodCounterScreen;
+    [SerializeField]
+    private GameScreen foodCounterScreen = null;
 
-    public GameScreen foodPrepScreen;
+    [SerializeField]
+    private GameScreen foodPrepScreen = null;
 
     private GameScreen GetScreenFromEnum(ScreenType screenType)
     {

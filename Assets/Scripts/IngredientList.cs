@@ -81,7 +81,7 @@ public class IngredientList : MonoBehaviour
             obs.CollectionChanged += OnIngredientSelectionChanged;
         }
 
-        ingredientManager.onActiveIngredientChanged.AddListener(SetActiveIngredient);
+        ingredientManager.OnActiveIngredientChanged.AddListener(SetActiveIngredient);
 
         SetActiveIngredient(ingredientManager.ActiveIngredient);
     }
@@ -102,7 +102,7 @@ public class IngredientList : MonoBehaviour
             Destroy(ch.gameObject);
         }
 
-        ingredientManager.onActiveIngredientChanged.RemoveListener(SetActiveIngredient);
+        ingredientManager.OnActiveIngredientChanged.RemoveListener(SetActiveIngredient);
     }
 
     private void SetActiveIngredient(Ingredient ingredient)
@@ -139,6 +139,7 @@ public class IngredientList : MonoBehaviour
 
         var btn = ingObject.GetComponent<Button>();
 
+        // Set item's button listener according to current clickMode
         if (clickMode == ListClickMode.Action)
             btn.onClick.AddListener(() => clickAction?.Invoke(ingObject));
         else
@@ -166,6 +167,8 @@ public class IngredientList : MonoBehaviour
             Destroy(item.gameObject);
     }
 
+    // Used to update ingredient list to match selected ingredients.
+    // See: IngredientManager.SelectedIngredients and ObservableCollection.
     private void OnIngredientSelectionChanged(object sender, NotifyCollectionChangedEventArgs e)
     {
         if (e.Action == NotifyCollectionChangedAction.Add)

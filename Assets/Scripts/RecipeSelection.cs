@@ -43,6 +43,7 @@ public class RecipeSelection : MonoBehaviour
         playButton.onClick.AddListener(OnStartGame);
     }
 
+    // Enable play button when a recipe is selected.
     private void OnClick(RecipeItem origin)
     {
         if (current)

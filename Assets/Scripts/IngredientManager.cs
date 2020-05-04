@@ -13,7 +13,10 @@ public class IngredientManager : MonoBehaviour
 
     private Ingredient activeIngredient;
 
-    public ActiveIngredientChangeEvent onActiveIngredientChanged;
+    [SerializeField]
+    private ActiveIngredientChangeEvent onActiveIngredientChanged;
+
+    public ActiveIngredientChangeEvent OnActiveIngredientChanged => onActiveIngredientChanged;
 
     public Ingredient ActiveIngredient
     {
@@ -41,8 +44,10 @@ public class IngredientManager : MonoBehaviour
         if (onActiveIngredientChanged == null)
             onActiveIngredientChanged = new ActiveIngredientChangeEvent();
 
+        // Load all ingredients into a list.
         allIngredients = new List<Ingredient>(Resources.LoadAll<Ingredient>("Ingredients"));
 
+        // Additionally, store ingredients to separate lists by storage type.
         foreach (var ingredient in allIngredients)
         {
             Debug.Log("Loaded ingredient " + ingredient.IngredientName);

@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using GameToolkit.Localization;
 using UnityEngine;
 
 public class RecipeManager : MonoBehaviour
