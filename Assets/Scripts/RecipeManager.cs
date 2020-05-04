@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class RecipeManager : MonoBehaviour
 {
+    private List<Recipe> allRecipes;
+
     [SerializeField]
     private SelectedRecipeStorage selectedRecipeStorage = null;
-
-    [Header("Recipe display")]
-    [SerializeField]
-    private LocalizedTextBehaviour recipeTitle = null;
-
-    [SerializeField]
-    private LocalizedTextBehaviour recipeText = null;
 
     [Header("Recipe grading display")]
     [SerializeField]
@@ -26,26 +21,15 @@ public class RecipeManager : MonoBehaviour
     public Recipe CurrentRecipe
     {
         get => currentRecipe;
-        set => SetRecipe(currentRecipe = value);
+        set => currentRecipe = value;
     }
+
+    public List<Recipe> AllRecipes => allRecipes;
 
     private void Start()
     {
+        allRecipes = new List<Recipe>(Resources.LoadAll<Recipe>("Recipes"));
         if (selectedRecipeStorage) CurrentRecipe = selectedRecipeStorage.SelectedRecipe;
-    }
-
-    private void SetRecipe(Recipe recipe)
-    {
-        if (recipeText && recipe)
-        {
-            recipeTitle.LocalizedAsset = recipe.RecipeName;
-            recipeText.LocalizedAsset = recipe.SimpleIngredientText;
-        }
-        else if (recipeText)
-        {
-            recipeTitle.LocalizedAsset = null;
-            recipeText.LocalizedAsset = null;
-        }
     }
 
     public void ShowGrade(List<Ingredient> plated)

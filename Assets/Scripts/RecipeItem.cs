@@ -14,7 +14,7 @@ public class RecipeItem : MonoBehaviour
         set => SetRecipe(recipe = value);
     }
 
-    private void SetRecipe(Recipe newRecipe)
+    protected virtual void SetRecipe(Recipe newRecipe)
     {
         titleText.LocalizedAsset = newRecipe.RecipeName;
     }

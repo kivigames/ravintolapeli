@@ -512,10 +512,9 @@ PrefabInstance:
       value: 'To prepare an ingredient, select it from the list and then click one
         of the cooking tools.
 
-        
 
-        Some tools might not be available
-        for some ingredients.'
+        Some tools might not be available for some
+        ingredients.'
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}

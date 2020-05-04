@@ -25,26 +25,46 @@ public class IngredientList : MonoBehaviour
 
     private IngredientManager ingredientManager;
 
-    public IngredientListType listType;
+    [SerializeField]
+    private IngredientListType listType = IngredientListType.All;
 
-    public bool reverseOrder = false;
+    [SerializeField]
+    private bool reverseOrder = false;
 
-    public VerticalLayoutGroup listGroup;
+    [SerializeField]
+    private bool allowDuplicates = false;
 
-    public IngredientItem ingredientItemPrefab;
+    [SerializeField]
+    private LayoutGroup listGroup = null;
 
-    public ListClickMode clickMode = ListClickMode.Select;
+    [SerializeField]
+    private IngredientItem ingredientItemPrefab = null;
 
-    public ItemClickEvent clickAction;
+    [SerializeField]
+    private ListClickMode clickMode = ListClickMode.Select;
+
+    [SerializeField]
+    private ItemClickEvent clickAction = new ItemClickEvent();
 
     private Color originalItemColor;
+
+    public IngredientListType ListType => listType;
+
+    public bool ReverseOrder => reverseOrder;
+
+    public bool AllowDuplicates => allowDuplicates;
+
+    public LayoutGroup ListGroup => listGroup;
+
+    public IngredientItem IngredientItemPrefab => ingredientItemPrefab;
+
+    public ListClickMode ClickMode => clickMode;
+
+    public ItemClickEvent ClickAction => clickAction;
 
     private void Awake()
     {
         ingredientManager = FindObjectOfType<IngredientManager>();
-
-        if (clickAction == null)
-            clickAction = new ItemClickEvent();
 
         originalItemColor = ingredientItemPrefab.GetComponent<Image>().color;
     }
@@ -106,6 +126,11 @@ public class IngredientList : MonoBehaviour
 
     public IngredientItem AddIngredient(Ingredient ing)
     {
+        if (!allowDuplicates)
+            foreach (Transform child in listGroup.transform)
+                if (child.GetComponent<IngredientItem>().Ingredient == ing)
+                    return null;
+
         var ingObject = Instantiate(ingredientItemPrefab, listGroup.transform);
         ingObject.Ingredient = ing;
 
@@ -161,7 +186,7 @@ public class IngredientList : MonoBehaviour
             var oldIndex = oldItem.transform.GetSiblingIndex();
 
             Destroy(oldItem.gameObject);
-            AddIngredient(newIngredient).transform.SetSiblingIndex(oldIndex);
+            AddIngredient(newIngredient)?.transform.SetSiblingIndex(oldIndex);
         }
     }
 

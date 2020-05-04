@@ -355,16 +355,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Here you can pick ingredients for your dish.
 
-        
 
-        Click
-        an ingredient inside the fridge or cupboard to add it to chosen ingredients
-        on the right.
+        Click an ingredient
+        inside the fridge or cupboard to add it to chosen ingredients on the right.
 
-        
 
-        You can remove an ingredient by clicking
-        it on the right.'
+        You
+        can remove an ingredient by clicking it on the right.'
       objectReference: {fileID: 0}
     - target: {fileID: 5184663901175814613, guid: d8794a50e07687445baf2ded8813e7a7,
         type: 3}

@@ -1709,11 +1709,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 942633516}
+      objectReference: {fileID: 915785275}
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
+      value: StartFreePlay
       objectReference: {fileID: 0}
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1723,7 +1723,7 @@ PrefabInstance:
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -1738,12 +1738,12 @@ PrefabInstance:
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4615936960708836614, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4615936960708836615, guid: d8ef3816095e1c84891a879a4162be13,
         type: 3}
@@ -3154,6 +3154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915785274}
+  - component: {fileID: 915785275}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -3182,6 +3183,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &915785275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915785273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fabd845afb8d2de45948cb917b72c1ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedRecipeStorage: {fileID: 11400000, guid: 30a6de94f8ebc6d4f9dbacbaba56ac2b,
+    type: 2}
 --- !u!1 &942633515
 GameObject:
   m_ObjectHideFlags: 0

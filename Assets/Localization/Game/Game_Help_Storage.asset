@@ -20,16 +20,13 @@ MonoBehaviour:
       m_Custom: 0
     m_Value: 'Here you can pick ingredients for your dish.
 
-      
 
-      Click
-      an ingredient inside the fridge or cupboard to add it to chosen ingredients
-      on the right.
+      Click an ingredient
+      inside the fridge or cupboard to add it to chosen ingredients on the right.
 
-      
 
-      You can remove an ingredient by clicking it
-      on the right.'
+      You
+      can remove an ingredient by clicking it on the right.'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
