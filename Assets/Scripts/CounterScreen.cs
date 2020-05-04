@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using GameToolkit.Localization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,9 +9,27 @@ public class CounterScreen : GameScreen
     [SerializeField]
     private IngredientList plateIngredientList = null;
 
+    [Header("Grading button and display")]
     [SerializeField]
     private Button gradeButton = null;
 
+    [Tooltip("Panel to enable when showing grade.")]
+    [SerializeField]
+    private RectTransform gradeModal = null;
+
+    [Tooltip("Text element to change according to grade.")]
+    [SerializeField]
+    private LocalizedTextBehaviour gradeText = null;
+
+    [Tooltip("Localized text for normal dish grading.")]
+    [SerializeField]
+    private LocalizedText gradeTextNormal = null;
+
+    [Tooltip("Localized text for completed dish grading.")]
+    [SerializeField]
+    private LocalizedText gradeTextWin = null;
+
+    [Header("Free play recipe list")]
     [SerializeField]
     private Button recipesButton = null;
 
@@ -40,12 +59,32 @@ public class CounterScreen : GameScreen
 
     public void ShowGrade()
     {
-        // Add plated ingredients to a list
-        var platedIngredients = new List<Ingredient>();
-        foreach (RectTransform item in plateIngredientList.ListGroup.transform)
-            platedIngredients.Add(item.GetComponent<IngredientItem>().Ingredient);
+        var currentRecipe = recipeManager.CurrentRecipe;
 
-        recipeManager.ShowGrade(platedIngredients);
+        // Add plated ingredients to a list
+        var plated = new List<Ingredient>();
+        foreach (RectTransform item in plateIngredientList.ListGroup.transform)
+            plated.Add(item.GetComponent<IngredientItem>().Ingredient);
+
+        // Try to find recipe's ingredients from plated list
+        var correct = 0;
+        foreach (var ing in currentRecipe.Ingredients)
+            if (plated.Contains(ing))
+                correct += 1;
+
+        var outOf = currentRecipe.Ingredients.Count;
+
+        if (correct == outOf)
+        {
+            gradeText.LocalizedAsset = gradeTextWin;
+        }
+        else
+        {
+            gradeText.LocalizedAsset = gradeTextNormal;
+            gradeText.FormatArgs = new[] {correct.ToString(), currentRecipe.Ingredients.Count.ToString()};
+        }
+
+        gradeModal.gameObject.SetActive(true);
     }
 
     private void AddIngredientsToSet(ISet<Ingredient> set, Ingredient ingredient)

@@ -1224,6 +1224,28 @@ PrefabInstance:
       propertyPath: possibleRecipesList
       value: 
       objectReference: {fileID: 1790230565}
+    - target: {fileID: 515867376262811688, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: gradeModal
+      value: 
+      objectReference: {fileID: 1382539703}
+    - target: {fileID: 515867376262811688, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: gradeText
+      value: 
+      objectReference: {fileID: 735978779}
+    - target: {fileID: 515867376262811688, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: gradeTextNormal
+      value: 
+      objectReference: {fileID: 11400000, guid: 24bee76e1509dc94589096b4d8195cdd,
+        type: 2}
+    - target: {fileID: 515867376262811688, guid: 85dfbbd51f63a614abfdfd63e6838784,
+        type: 3}
+      propertyPath: gradeTextWin
+      value: 
+      objectReference: {fileID: 11400000, guid: 291eab875e6d14f42a6ed8d01d122cc2,
+        type: 2}
     - target: {fileID: 683665867488658281, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_RootOrder
@@ -1702,7 +1724,7 @@ PrefabInstance:
     - target: {fileID: 7228833908253438091, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -201.45515
+      value: -383.39487
       objectReference: {fileID: 0}
     - target: {fileID: 7334042248433969351, guid: 85dfbbd51f63a614abfdfd63e6838784,
         type: 3}

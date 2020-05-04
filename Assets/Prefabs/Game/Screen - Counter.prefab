@@ -171,6 +171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plateIngredientList: {fileID: 8661714133562659094}
   gradeButton: {fileID: 481923282193926244}
+  gradeModal: {fileID: 0}
+  gradeText: {fileID: 0}
+  gradeTextNormal: {fileID: 0}
+  gradeTextWin: {fileID: 0}
   recipesButton: {fileID: 1995459165408561931}
   possibleRecipesList: {fileID: 0}
   freePlayHelpPanel: {fileID: 4386846274154006544}
@@ -286,7 +290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -420}
+  m_AnchoredPosition: {x: 0, y: -415.24005}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &7095693735016594462
@@ -482,7 +486,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 5152371166030754305}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999326
+  m_Size: 0.88178885
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
