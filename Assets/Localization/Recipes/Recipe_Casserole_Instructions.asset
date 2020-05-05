@@ -18,31 +18,31 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: "Preparation (about 60 minutes):\r\nWarm up the oven to 225 degrees
-      celsius pull over a frying pan and a casserole pan. \r\n\r\nFry the meat on
-      the frying pan and add it to the casserole pan once the meat is fully cooked.\r\n\r\nChop
-      the vegetables and add them to the frying pan.\r\n\r\nonce the meat and vegetables
+    m_Value: "Preparation (about 60 minutes)\n\nWarm up the oven to 225 degrees celsius
+      pull over a frying pan and a casserole pan. \r\nFry the meat on the frying
+      pan and add it to the casserole pan once the meat is fully cooked.\r\nChop
+      the vegetables and add them to the frying pan.\r\n\r\nOnce the meat and vegetables
       are in the casserolle pan, add in the frozen sliced potatoes (or alternatively
-      boiled potato slices).\r\n\r\nAdd whole milk or cream to the mix and mix the
-      ingradiends around.\r\n\r\nAdd the cheese and put the mixture in the oven once
-      the oven has warmed up.\r\n\r\nAdd a lid on top of the casserolle pan and cook
-      in the center of the oven for 45 minutes .\r\nOnce the casserole seems ready,
+      boiled potato slices).\r\r\nAdd whole milk or cream to the mix and mix the
+      ingradiends around.\r\nAdd the cheese and put the mixture in the oven once
+      the oven has warmed up.\r\r\nAdd a lid on top of the casserolle pan and cook
+      in the center of the oven for 45 minutes .\r\n\nOnce the casserole seems ready,
       continue cooking wihtout a lid for 5-10 minutes or until the surface is golden
-      brown.\r\n\r\nTake the casserole out of the oven and taste the casserolle."
+      brown.\r\r\nTake the casserole out of the oven and taste the casserolle.\nServe
+      the Casserolle as such or with some vegetables."
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "Valmistus (noin 60 minuuttia):\r\nL\xE4mmit\xE4 uuni 225 asteeseen
-      ja ota esille paistovuoka sek\xE4 paistinpannu. \r\n\r\nAseta liha kuumalle
-      paistinpannulle, ja kun liha on kyps\xE4, lis\xE4\xE4 se paistovuokaan.\r\n\r\nPilko
-      vihannekset ja lis\xE4\xE4 nekin paistovuokaan.\r\n\r\nKun liha ja vihannekset
-      ovat paistovuoassa, lis\xE4\xE4 joukkoon pakastetut perunasuikaleet (tai pilkotut
-      ja keitetyt perunasuikaleet).\r\n\r\nLis\xE4\xE4 seoksen joukkoon maito tai
-      ruokakerma ja sekoita seosta. \r\n\r\nLis\xE4\xE4 seoksen p\xE4\xE4lle juusto
-      ja nosta seos uuniin, kun uuni on l\xE4mmennyt 225 aasteeseen.\r\n\r\nLis\xE4\xE4
-      kansi ja paista seos uunin keski- tai alaosassa noin 45 minuuttia.\r\nOta vuoan
-      kansi pois ja jatka paistamista noin 5 minuuttia tai kunnes ruoan pinta on
-      kullanruskean v\xE4rinen.\r\n\r\nOta vuoka pois uunista ja tarkista ruoan kypsyys
-      vuoan keskiosalta.\r\nTarjoile ruoka sellaisenaan."
+    m_Value: "Valmistus (noin 60 minuuttia)\n\nL\xE4mmit\xE4 uuni 225 asteeseen ja
+      ota esille paistovuoka sek\xE4 paistinpannu. \r\nAseta liha kuumalle paistinpannulle,
+      ja kun liha on kyps\xE4, lis\xE4\xE4 se paistovuokaan.\r\nPilko vihannekset
+      ja lis\xE4\xE4 nekin paistovuokaan.\r\n\r\nKun liha ja vihannekset ovat paistovuoassa,
+      lis\xE4\xE4 joukkoon pakastetut perunasuikaleet (tai pilkotut ja keitetyt perunasuikaleet).\r\nLis\xE4\xE4
+      seoksen joukkoon maito tai ruokakerma ja sekoita seosta. \r\r\nLis\xE4\xE4
+      seoksen p\xE4\xE4lle juusto ja nosta seos uuniin, kun uuni on l\xE4mmennyt
+      225 aasteeseen.\r\nLis\xE4\xE4 kansi ja paista seos uunin keski- tai alaosassa
+      noin 45 minuuttia.\r\n\nOta vuoan kansi pois ja jatka paistamista noin 5 minuuttia
+      tai kunnes ruoan pinta on kullanruskean v\xE4rinen.\r\nOta vuoka pois uunista
+      ja tarkista ruoan kypsyys vuoan keskiosalta.\r\nTarjoile ruoka sellaisenaan."

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Recipe_MeatRisotto_Instructions
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: 'Preparation (about 45 minutes):
+
+
+      Set the rice on the kettle
+      or rice cooker.
+
+      Add water until the water level is about double whn
+      compares to the level of rice.
+
+      Boil the rice until the grains are soft.
+
+      Remember
+      to mix the rice during cooking process.
+
+
+      Place the meat on the frying
+      pan and fry the meat on oil or butter.
+
+      Chop the onion and fry with the
+      meat until the meat is fully cooked.
+
+
+      Wait for the rice to be cooked
+      and add it to the frying when it is ready.
+
+      Add the beef bouillon and
+      food cream or milk.
+
+      Add a lid on top of the pan, lower the stove heat
+      and let the liquids mix into the risotto for at least 15 minutes.
+
+
+      Season
+      with salt and pepper before serving.
+
+      Serve the risotto with vegetables.
+
+      Also
+      try making the risotto with different type of meat.'
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: "Valmistus (noin 45 minuuttia):\n\nAseta riisi keittym\xE4\xE4n kattilaan
+      tai riisinkeittimeen.\nLis\xE4\xE4 asitaan vett\xE4 kunnes vett\xE4 on noin
+      kaksi kertaa enemm\xE4n verrattuna riisin m\xE4\xE4r\xE4\xE4n.\nKeit\xE4 riisi\xE4,
+      kunnes riisinjyv\xE4t muuttuvat pehmeiksi.\nMuista sekoittaa riisi\xE4 tasaisin
+      v\xE4liajoin.\n\r\nPaista lihaa voissa tai \xF6ljyss\xE4.\r\r\nPilko sipuli
+      ja paista lihan kanssa kunnes liha on t\xE4ysin kyps\xE4\xE4.\r\r\n\nLis\xE4\xE4
+      lihan ja sipun joukkoon kyps\xE4 riisi ja jatka paistamista hetken ajan.\nLis\xE4\xE4
+      joukkoon lihaliemi sek\xE4 ruokakerma tai maito\nAseta paistinpannun p\xE4\xE4lle
+      kansi, pienenn\xE4 levyn l\xE4mp\xF6tilaa ja anna nesteiden imeyty\xE4 riisiin
+      v\xE4hint\xE4\xE4n 15 minuutin ajan.\r\n\r\nMausta kastike suolalla ja pippurilla.\r\nTarjoile
+      vihannesten kera.\r\nKokeile my\xF6s eri lihojen kanssa."

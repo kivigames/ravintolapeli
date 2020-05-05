@@ -20,9 +20,9 @@ MonoBehaviour:
       m_Custom: 0
     m_Value: 'Preparation (over 3 hours):
 
-      set the oven temperature to 200
-      degrees celsius and pull over a frying pan and a casserolle pan.
 
+      Set the oven temperature to 200
+      degrees celsius and pull over a frying pan and a casserolle pan.
 
       Fry
       the chopped meat in butter and start preparing the other ingredients.
@@ -31,27 +31,23 @@ MonoBehaviour:
       Chop
       the onion and carrot and add it to the casserolle pan.
 
-
       Add the rest
       of the ingredients to the casserolle pan and add about 10 allspice and a couple
       bay leaves. Add a lot of water to the pan.
 
-
-      Put a lid on top of the
-      pan and place the pan in the oven for at least 2 hours.
+      Put a lid on top of the pan
+      and place the pan in the oven for at least 2 hours.
 
 
       Slice potatoes
       and turnip. Add them to a seperate pot filled with water. boil until the potatoes
       and turnips are soft in the center.
 
+      Observe the pan in the oven at least
+      once in an hour and add water when needed.
 
-      Observe the pan in the oven at
-      least once in an hour and add water when needed.
-
-
-      When the hot pot seems
-      ready, take the lid off and keep it in the oven for another 10-15 minutes.
+      When the hot pot seems ready,
+      take the lid off and keep it in the oven for another 10-15 minutes.
 
 
       Serve
@@ -61,15 +57,15 @@ MonoBehaviour:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "Valmistus (yli 3 tuntia):\r\nAseta uunin l\xE4mp\xF6tila 200 asteeseen
-      ja ota esille paistovuoka sek\xE4 paistinpannu.\r\n\r\nPaista paloiteltu liha
-      voissa  ja aloita muiden ainesten valmistelu.\r\n\r\nPilko sipuli sek\xE4 porkkana
-      ja lis\xE4\xE4 ne paistovuokaan.\r\n\r\nLis\xE4\xE4 kaikki loput ainekset paistovuokaan
+    m_Value: "Valmistus (yli 3 tuntia)\n\nAseta uunin l\xE4mp\xF6tila 200 asteeseen
+      ja ota esille paistovuoka sek\xE4 paistinpannu.\r\nPaista paloiteltu liha voissa 
+      ja aloita muiden ainesten valmistelu.\r\n\r\nPilko sipuli sek\xE4 porkkana
+      ja lis\xE4\xE4 ne paistovuokaan.\r\nLis\xE4\xE4 kaikki loput ainekset paistovuokaan
       ja lis\xE4\xE4 joukkoon noin 10  mustapippuria ja muutama laakerinlehti. Lis\xE4\xE4
-      vuokaan runsaasti vett\xE4.\r\n\r\nAseta kansi vuoan p\xE4\xE4lle ja laita
-      vuoka uuniin ainakin 2 tunniksi.\r\n\r\nPilko perunat sek\xE4 lanttu ja lis\xE4\xE4
+      vuokaan runsaasti vett\xE4.\r\nAseta kansi vuoan p\xE4\xE4lle ja laita vuoka
+      uuniin ainakin 2 tunniksi.\r\n\r\nPilko perunat sek\xE4 lanttu ja lis\xE4\xE4
       ne vedell\xE4 t\xE4ytettyyn kattilaan. Keit\xE4 perunoita ja lanttua kunnes
-      ne ovat pehmeit\xE4 sis\xE4lt\xE4.\r\n\r\nTarkastele tunneittain paistin vesim\xE4\xE4r\xE4\xE4
-      ja lis\xE4\xE4 vett\xE4 tarvittaessa.\r\n\r\nKun paisti vaikuttaa valmiilta,
+      ne ovat pehmeit\xE4 sis\xE4lt\xE4.\r\r\nTarkastele tunneittain paistin vesim\xE4\xE4r\xE4\xE4
+      ja lis\xE4\xE4 vett\xE4 tarvittaessa.\r\r\nKun paisti vaikuttaa valmiilta,
       ota kansi pois ja pid\xE4 uunissa ilman kantta noin 10-15 minuuttia.\r\n\r\nTarjoile
       paisti keitettyjen perunoiden ja lantun kera."

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
-  m_Name: Meat sauce with tomatoes
+  m_Name: MeatRisotto
   m_EditorClassIdentifier: 
   recipeName: {fileID: 11400000, guid: 489c47e6fffd6894ea86190d85203d62, type: 2}
   ingredients:
   - {fileID: 11400000, guid: f461e42244f2897468ab257c819d8067, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
-  - {fileID: 11400000, guid: 16ab3da0e2b374c48816bbbdbcd6ea0c, type: 2}
-  - {fileID: 11400000, guid: b1d85982df0755c4bb5821529baf6866, type: 2}
+  - {fileID: 11400000, guid: dc623e6e23df12a49989c275a1215bd0, type: 2}
+  - {fileID: 11400000, guid: 678ca8181ff9eed47a8b07cb0096fba0, type: 2}
   ingredientsText: {fileID: 11400000, guid: daa8584f9984f8944b51ec2d43e16bbe, type: 2}
   simpleIngredientsText: {fileID: 11400000, guid: 8d7e1fad3dedccb4aaea17358964ee13,
     type: 2}

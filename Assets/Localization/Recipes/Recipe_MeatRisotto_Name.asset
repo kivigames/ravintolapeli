@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
-  m_Name: Recipe_MeatSauce_SimpleIngredients
+  m_Name: Recipe_MeatRisotto_Name
   m_EditorClassIdentifier: 
   m_LocaleItems:
   - m_Language: -1
@@ -18,18 +18,10 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: '- Fried meat
-
-      - Chopped onion
-
-      - Tomato sauce
-
-      -
-      Boiled potato'
+    m_Value: Meat risotto
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "- Paistettua lihaa\r\n- Pilkottua sipulia\r\n- Tomaattikastiketta\r\n-
-      Keitetty\xE4 perunaa\r"
+    m_Value: Liharisotto

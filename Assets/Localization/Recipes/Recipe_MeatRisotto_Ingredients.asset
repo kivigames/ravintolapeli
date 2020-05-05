@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
-  m_Name: Recipe_MeatSauce_Ingredients
+  m_Name: Recipe_MeatRisotto_Ingredients
   m_EditorClassIdentifier: 
   m_LocaleItems:
   - m_Language: -1
@@ -18,20 +18,26 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: '- 400 g of Meat
+    m_Value: '- 300 g of Meat
 
-      - one half or a whole onion
+      - a whole onion
 
-      - 400-800
-      g of crushed tomatoes'
+      - 600-800 g rice
+
+      -
+      a clove of garlic
+
+      - beef boullion
+
+      - oil or butter
+
+      - 4dl
+      of  whole milk or 2dl of food cream'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: '- 400 g Lihaa
-
-      - Puolikas tai kokonainen sipuli
-
-      - 400-800
-      g Tomaattimurskaa'
+    m_Value: "- 300 g Lihaa\n- Kokonainen sipuli\n- 400-600 g riisi\xE4\n- Valkosipulin
+      kynsi\n- Lihalient\xE4\n- \xD6ljy\xE4 tai voita\n- 4dl t\xE4ysmaitoa tai 2dl
+      ruokakermaa"

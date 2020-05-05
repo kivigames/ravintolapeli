@@ -18,8 +18,8 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: "Valmistus (noin 45 minuuttia)\r\nFry the minced meat and onion in butter
-      or vegetable oil.\r\n\r\nChop the potatoes and the other vegetables.\r\n\r\nPut
+    m_Value: "Preparation (about 45 minutes)\r\n\nFry the minced meat and onion in
+      butter or vegetable oil.\r\n\r\nChop the potatoes and the other vegetables.\r\nPut
       in a pot the potatoes, minced meat, vegetables, all spice, water and beef stock.
       \r\n\r\nBoil the soup until it seems ready\r\nSeason the soup with salt and
       parsley"
@@ -28,8 +28,8 @@ MonoBehaviour:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "Valmistus (noin 45 minuuttia)\r\nRuskista jauheliha ja paista sipuli
-      rasvassa.\r\n\r\nViipaloi perunat ja pilko muut juurekset.\r\n\r\nLaita kattilaan
-      perunat, jauheliha, juurekset, pippurit, vesi ja lihaliemikuutiot. \r\n\r\nKeit\xE4
+    m_Value: "Valmistus (noin 45 minuuttia)\r\n\nRuskista jauheliha ja paista sipuli
+      rasvassa.\r\r\nViipaloi perunat ja pilko muut juurekset.\r\n\r\nLaita kattilaan
+      perunat, jauheliha, juurekset, pippurit, vesi ja lihaliemikuutiot. \r\r\nKeit\xE4
       keittoa, kunnes se vaikuttaa kyps\xE4lt\xE4. \r\n\r\nMausta valmis keitto suolalla
       ja persiljalla."

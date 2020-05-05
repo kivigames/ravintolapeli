@@ -18,28 +18,28 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: '- Cooked spaghetti
+    m_Value: '- Spaghetti
 
       - 400 g of minced meat
 
-      - 1 dl of
-      onion
+      - 1 dl of onion
 
-      - 3 cloves of garlic
+      -
+      3 cloves of garlic
 
       - 3 spoons of vegetable oil
 
+      - 1 tsp of salt
+
       -
-      1 tsp of salt
+      400 g of crushed tomatoes
 
-      - 400 g of crushed tomatoes
-
-      - 1 small can of
-      tomato paste
+      - 1 small can of tomato paste
 
       - 1 carrot
 
-      - 1 tsp of chili powder'
+      -
+      1 tsp of chili powder'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish

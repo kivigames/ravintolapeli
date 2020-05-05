@@ -18,19 +18,19 @@ MonoBehaviour:
       m_Name: English
       m_Code: en
       m_Custom: 0
-    m_Value: "Preparation (about 35 minutes):\r\nTun on the stove and fry the minced
-      meat and add the chopped onion. add crushed garlic. Season with salt and pepper.\r\n\r\nAdd
+    m_Value: "Preparation (about 35 minutes)\n\nTun on the stove and fry the minced
+      meat and add the chopped onion. add crushed garlic. Season with salt and pepper.\r\nAdd
       the crushed tomatoes and the grated carrot. You can also add some chili powder
-      or fresh chopped chili pepper. \r\n\r\nBoil the mixture at low heat for at
-      least 15-20 minutes. Serve with cooked spaghetti."
+      or fresh chopped chili pepper. \r\n\nBoil the mixture at low heat for at least
+      15-20 minutes. Serve with cooked spaghetti."
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: "Valmistus (noin 35 minuuttia):\r\nKuumenna pannu ja ruskista jauheliha
+    m_Value: "Valmistus (noin 35 minuuttia):\r\n\nKuumenna pannu ja ruskista jauheliha
       ja hienonnettu sipuli. Lis\xE4\xE4 valkosipulimurska. Mausta seos suolalla
-      ja pippurilla.\r\n\r\nLis\xE4\xE4 tomaattimurska sek\xE4 raastettu porkkana.
-      Halutessasi kastikkeeseen hieman potkua voit lis\xE4t\xE4 ripauksen chilijauhetta
-      tai hienoksi silputtua tuoretta chili\xE4. \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4
+      ja pippurilla.\r\nLis\xE4\xE4 tomaattimurska sek\xE4 raastettu porkkana. Halutessasi
+      kastikkeeseen hieman potkua voit lis\xE4t\xE4 ripauksen chilijauhetta tai hienoksi
+      silputtua tuoretta chili\xE4. \r\n\r\nHauduta pienell\xE4 l\xE4mm\xF6ll\xE4
       v\xE4hint\xE4\xE4n 15-20 minuuttia. Tarjoile kastike keitetyn spagetin kera."
