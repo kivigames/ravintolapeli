@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
+  m_Name: Recipe_Fish_Taco
+  m_EditorClassIdentifier: 
+  recipeName: {fileID: 11400000, guid: 6c2e24b186c623b4aa9d3913db4d8dff, type: 2}
+  ingredients:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
+  - {fileID: 0}
+  ingredientsText: {fileID: 11400000, guid: 4020c6b9ba52e244181902adb550899d, type: 2}
+  simpleIngredientsText: {fileID: 11400000, guid: 497d26e6d5ab3324c8b7432cf95999b0,
+    type: 2}
+  recipeText: {fileID: 11400000, guid: d4a810ab3af0d074088e1a459cbac82d, type: 2}

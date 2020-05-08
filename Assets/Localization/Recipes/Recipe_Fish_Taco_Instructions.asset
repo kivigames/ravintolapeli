@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Recipe_Fish_Taco_Instructions
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: 'Preparation: (about 30 minutes)
+
+
+      Prepare the sour cream sauce
+      by mixing the ingredients together and put the mixture in the fridge.
+
+
+      Mix
+      the breadcrumb flour with salt into a bowl or a deep plate.
+
+      Slice the
+      fish fillet into long slices.
+
+      Mix the fish slices in the breadcrumb
+      flour mix.
+
+      Fry the floured fish fillet in butter or vegetable oil.
+
+
+      Slice
+      the cabbage into long slices and dice the bell pepper into small cubes.
+
+
+      Add
+      the fried fish, vegetables and some sour cream sauce on top of a warmed tortilla.'
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: "Valmistus: (noin 30 minuuttia)\n\nValmistele kermaviilikastike sekoittamalla
+      kaikki kastikkeen ainekset kesken\xE4\xE4n ja laita kastike j\xE4\xE4kaappiin
+      viilentym\xE4\xE4n.\n\nSekoita korppujauhot ja suola kulhoon tai syv\xE4\xE4n
+      lautaseen.\nPilko kalafilee ohuiksi siivuiksi.\nPy\xF6rittele kalasiivuja korppujauhoseoksessa.\nPaista
+      jauhoissa py\xF6ritellyt kalanpalat.\n\nPilko kaali ohuiksi siivuiksi ja paprika
+      pieniksi kuutioiksi.\n\nLis\xE4\xE4 paistettu kala, kasvikset ja hieman kermaviilikastiketta
+      l\xE4mmitetyn tortillan p\xE4\xE4lle."

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Recipe_Fish_Taco_Ingredients
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: '- 400 g Fish fillet
+
+      - 1 whole bell pepper
+
+      - 300 g of
+      cabbage
+
+      - Half of a red onion
+
+      - 200 g of breadcrumb flour
+
+      -
+      2-3 tbs of salt
+
+      - 1-2 packets of tortillas
+
+
+      Serve with Sour cream
+      sauce:
+
+      - 1 packet of sour cream
+
+      - 1 tbs of mustard
+
+      - 1
+      ts of lemon juice
+
+      - 1 ts of Fresh or dried dill
+
+
+      Also try with
+      other vegetables.'
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: "- 400 g Kalafileet\xE4\n- 1 Kokonainen paprika\n- 300 g Kaalia\n- Puolikas
+      punasipuli\n- 200 g Korppujauhoja\n- 2-3 rkl Suolaa\n- 1 - 2 pkt Tortilloja\n\nTarjoile
+      kermaviilikastikkeen kanssa:\n- 1 prk Kermaviili\xE4\n- 1 rkl Sinappia\n- 1
+      tl Sitruunamehua\n- 1 tl Tuoretta tai kuivattua tilli\xE4\n\nKokeile my\xF6s
+      muiden vihanneksien kanssa."
