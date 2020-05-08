@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e4760c84ff4619a9b245f4365233b3, type: 3}
+  m_Name: Recipe_Spanish_Rice
+  m_EditorClassIdentifier: 
+  recipeName: {fileID: 11400000, guid: d4e398654ff47ce459b0c681d684317c, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: dc623e6e23df12a49989c275a1215bd0, type: 2}
+  - {fileID: 11400000, guid: 16ab3da0e2b374c48816bbbdbcd6ea0c, type: 2}
+  - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
+  ingredientsText: {fileID: 11400000, guid: de5af5be40f95e949b8ef89c0b478cff, type: 2}
+  simpleIngredientsText: {fileID: 11400000, guid: 10f5dcec1b98f3548bafb734db07666c,
+    type: 2}
+  recipeText: {fileID: 11400000, guid: ef86e7a1fd6ef9f459f3ec4c40197244, type: 2}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Recipe_Spanish_Rice_Instructions
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: 'Preparation (about 40 minutes):
+
+      Dice the onion and bell peppers
+      into small cubes.
+
+
+      Warm up the oil on medium heat in a deep pan.
+
+      Fry
+      the rice, onion and bell peppers until the rice is slightly brown and the onions
+      are soft.
+
+
+      Add the water and diced tomatoes. Season with salt and optionally
+      with chili powder. Add a lid and warm at low heat for 30 minutes or until there
+      is no more liquid and the rice is fully cooked.'
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: "Valmistus (noin 40 minuuttia):\nSilppua sipuli ja paprika pieneksi
+      silpuksi.\n\nL\xE4mmit\xE4 \xF6ljy\xE4 keskil\xE4mm\xF6ll\xE4 syv\xE4ss\xE4
+      paistinpannussa.\nRuskista riisi\xE4 sipulia ja paprikaa kunnes riisi on ruskistunut
+      ja sipulit ovat pehmeit\xE4\n\nLis\xE4\xE4 pannulle vesi ja murskatut tomaatit.
+      Mausta suolalla ja oman maun mukaan chilijauheella. Lis\xE4\xE4 kansi ja anna
+      keitoksen hautua pienell\xE4 l\xE4mm\xF6ll\xE4 30 minuutin ajan tai kunnes
+      nesteet ovat imeytyneet riisiin ja riisi on kyps\xE4\xE4.\n"
