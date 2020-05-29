@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
-  m_Name: Menu_Credits_Text
+  m_Name: Menu_Credits_Team
   m_EditorClassIdentifier: 
   m_LocaleItems:
   - m_Language: -1
@@ -30,22 +30,11 @@ MonoBehaviour:
       Samu Willman
 
 
-'
+      Sound effects obtained from https://www.zapsplat.com'
   - m_Language: -1
     m_Language2:
       m_Name: Finnish
       m_Code: fi
       m_Custom: 0
-    m_Value: 'Kivi Games Kehitystiimi:
-
-      Ville Kautto
-
-      Aleksi Kervinen
-
-      Miika
-      Minkkinen
-
-      Samu Willman
-
-
-'
+    m_Value: "Kivi Games Kehitystiimi:\nVille Kautto\nAleksi Kervinen\nMiika Minkkinen\nSamu
+      Willman\n\n\xC4\xE4niefektit hankittu osoitteesta https://www.zapsplat.com"

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af65ee6b0f35f974dba93979a07edbce, type: 3}
+  m_Name: Menu_Credits_Info
+  m_EditorClassIdentifier: 
+  m_LocaleItems:
+  - m_Language: -1
+    m_Language2:
+      m_Name: English
+      m_Code: en
+      m_Custom: 0
+    m_Value: "Meal Shift has been produced by students of Tampere University of Applied
+      Sciences in Business Information Systems in co-operation with the City of Tampere
+      Nepsy-support team's coordinated \u201Dthe rise of Nepsy teen services\u201D
+      -work group.\r\nThe work group consists of personnel of city of Tampere from
+      various fields, experienced professionals and members of Tampere region's autism
+      association. The client is the City of Tampere."
+  - m_Language: -1
+    m_Language2:
+      m_Name: Finnish
+      m_Code: fi
+      m_Custom: 0
+    m_Value: " Ruokavuoro on toteutettu Tampereen ammattikorkeakoulun tietojenk\xE4sittelyn
+      opiskelijoiden toimesta yhteisty\xF6ss\xE4 Tampereen kaupungin Nepsy-tukitiimin
+      koordinoiman \u201DNepsy-nuorten palvelut nousuun\u201D -ty\xF6ryhm\xE4n kanssa.\r\nTy\xF6ryhm\xE4\xE4n
+      on kuulunut monialaisesti Tampereen kaupungin henkil\xF6st\xF6\xE4, kokemusasiantuntijoita
+      sek\xE4 Tampereen seudun autismiyhdistys ry:n j\xE4seni\xE4. Toimeksiantaja
+      on Tampereen kaupunki.\r"
