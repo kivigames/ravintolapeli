@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cabbage (Chopped)
   m_EditorClassIdentifier: 
   ingredientName: {fileID: 11400000, guid: f985ef28a003960458e6e4f362434997, type: 2}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: e97a88297374f244fb9f2d20e0b356d3, type: 3}
   storageType: 0
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 0}
