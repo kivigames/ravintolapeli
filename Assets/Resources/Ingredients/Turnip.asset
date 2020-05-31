@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Turnip
   m_EditorClassIdentifier: 
   ingredientName: {fileID: 11400000, guid: 83946eaeba40eda409c2cb74b1cb463c, type: 2}
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 19c7efd5bac1d6e4cb713d5e245287ed, type: 3}
   storageType: 1
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 11400000, guid: bd6b35dc1e8bb3e4aa6c9a5ba35a051c, type: 2}

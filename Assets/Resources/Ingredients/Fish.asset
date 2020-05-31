@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff1c4ad3c48d7f642ad1a4e800c98eed, type: 3}
-  m_Name: Carrot (Chopped)
+  m_Name: Fish
   m_EditorClassIdentifier: 
-  ingredientName: {fileID: 11400000, guid: d6327c4970e3b7a4ebd177653da4dca8, type: 2}
-  sprite: {fileID: 21300000, guid: feae1fa26b2964d43bd71d9b62c8544e, type: 3}
-  storageType: 0
+  ingredientName: {fileID: 11400000, guid: 91c03906e806d8c43acb215cb025956c, type: 2}
+  sprite: {fileID: 21300000, guid: d857d70cf05a6e74cb26f20debb884ea, type: 3}
+  storageType: 2
   choppedVersion: {fileID: 0}
   boiledVersion: {fileID: 0}
-  friedVersion: {fileID: 0}
+  friedVersion: {fileID: 11400000, guid: cceb6fceafe14de48b23cc1cc74b8bf3, type: 2}

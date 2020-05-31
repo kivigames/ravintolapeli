@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recipeName: {fileID: 11400000, guid: 6c2e24b186c623b4aa9d3913db4d8dff, type: 2}
   ingredients:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: cceb6fceafe14de48b23cc1cc74b8bf3, type: 2}
   - {fileID: 11400000, guid: a1cb13d5535b07a4b8c6190647d9dce6, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 16997f6477037ee439a07a916a5c973d, type: 2}
   ingredientsText: {fileID: 11400000, guid: 4020c6b9ba52e244181902adb550899d, type: 2}
   simpleIngredientsText: {fileID: 11400000, guid: 497d26e6d5ab3324c8b7432cf95999b0,
     type: 2}
