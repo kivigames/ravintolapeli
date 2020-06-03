@@ -608,10 +608,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 320, y: 608}
+  m_SizeDelta: {x: 320, y: -64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7357629122012905346
 CanvasRenderer:
@@ -718,6 +718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listType: 0
   reverseOrder: 0
+  allowDuplicates: 0
   listGroup: {fileID: 8179319121344400277}
   ingredientItemPrefab: {fileID: 2489546376031891592, guid: 1bed5dab37b0e2a4aa2b2871c55d308c,
     type: 3}
